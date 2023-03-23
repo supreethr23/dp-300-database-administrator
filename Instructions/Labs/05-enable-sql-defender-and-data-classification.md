@@ -28,9 +28,8 @@ You have been hired as a Senior Database Administrator help ensure the security 
 
     ![Screenshot of selecting the Configure option](../images/defenderconfigure.png)
 
-1. On the **Server settings** page, notice that toggle switch under **MICROSOFT DEFENDER FOR SQL** is set to **ON (1)**, and then select **Save (2)**.
+1. On the **Server settings** page, notice that toggle switch under **MICROSOFT DEFENDER FOR SQL** is set to **ON**.
 
-    ![Screenshot of Server settings page](../images/upd-dp-300-module-05-lab-03.png)
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -41,10 +40,6 @@ You have been hired as a Senior Database Administrator help ensure the security 
 
 ## Enable Data Classification
 
-> **Note:** 
-> - Microsoft Defender for Cloud can take upto 24-48 hours to surface post the completion of a scan.
-> - At this point of the workshop, no data visualisations may be populated. (So the result in the screenshot below may vary)
-
 1. From the main blade of your Azure SQL server, navigate to the **Settings** section, and select **SQL databases (1)**, and then select the database name **(2)**.
 
     ![Screenshot showing selecting the AdventureWOrksLT database](../images/upd-dp-300-module-05-lab-04.png)
@@ -52,10 +47,17 @@ You have been hired as a Senior Database Administrator help ensure the security 
 1. On the main blade for the **AdventureWorksLT** database, navigate to the **Security** section, and then select **Data Discovery & Classification**.
 
     ![Screenshot showing the Data Discovery & Classification](../images/upd-dp-300-module-05-lab-05.png)
+  
+1. On the **Data Discovery & Classification** page, you will see an informational message that reads: **Currently using SQL Information Protection policy. We have found 15 columns with classification recommendations**. Select this link.
 
-1. On the **Data Discovery & Classification** screen, you can find the recommended classifications.
+      ![Screenshot showing the Classification Recommendations](../images/dp-300-module-05-lab-06.png)
+      
+1. On the next **Data Discovery & Classification** screen select the check box next to **Select all**, select **Accepted selected recommendations**, and then select **Save** to save the classifications into the database.
 
-   > **Note:** The screenshot and information below, has been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
+    ![Screenshot showing the Accept selected recommendations](../images/Dp-300newu2.png)
+
+1. Back to the **Data Discovery & Classification** screen, notice that fifteen columns were successfully classified across five different tables.
+
 
     ![Screenshot showing the Accept selected recommendations](../images/upd-dp-300-module-05-lab-08.png)
 
