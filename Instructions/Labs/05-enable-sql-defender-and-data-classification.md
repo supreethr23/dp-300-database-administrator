@@ -55,7 +55,7 @@ You have been hired as a Senior Database Administrator help ensure the security 
 1. On the next **Data Discovery & Classification** screen select the check box next to **Select all**, select **Accepted selected recommendations**, and then select **Save** to save the classifications into the database.
 
     ![Screenshot showing the Accept selected recommendations](../images/Dp-300newu2.png)
-
+    
 1. Back to the **Data Discovery & Classification** screen, notice that fifteen columns were successfully classified across five different tables.
 
     ![Screenshot showing the Accept selected recommendations](../images/upd-dp-300-module-05-lab-08.png)
