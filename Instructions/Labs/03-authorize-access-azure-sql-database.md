@@ -10,11 +10,11 @@ You've been hired as a Senior Database Administrator to help ensure the security
  
 1. On the Azure portal home page select **All resources**.
 
-   ![Screenshot of the Azure portal home page, selecting All resources](../images/dp300-lab3-img2.png)
+   ![Screenshot of the Azure portal home page, selecting All resources](../images/dp300-lab3-img2_update.png)
 
 1. Search for **dp300 (1)** and select the Azure SQL Database server **dp300-lab-<inject key="DeploymentID" enableCopy="false" />(2)**
 
-   ![Screenshot selecting Not Configured](../images/dp300-lab3-img3.png)
+   ![Screenshot selecting Not Configured](../images/dp300-lab3-img3_update.png)
 
 1. On the Overview page, select the **Not Configured** next to **Active Directory Admin**.
 
