@@ -4,7 +4,7 @@ Students will configure basic resources needed to deploy an Azure SQL Database w
 
 As a database administrator for AdventureWorks, you will set up a new SQL Database, including a Virtual Network Endpoint to increase and simplify the security of the deployment. Azure Data Studio will be used to evaluate the use of a SQL Notebook for data querying and results retention.
 
-## Create a Virtual Network
+## Task 1 - Create a Virtual Network
 
 1. In the Azure portal home page, select the **left hand menu.**
 
@@ -17,9 +17,9 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 3. Click **+ Create** to open the **Create Virtual Network** page. On the **Basics** tab, complete the following information:
 
 - **Subscription:** Use existing subscription
-- **Resource group:** **contoso-rg-<inject key="Deployment-id" enableCopy="false" />** **(1)**
-- **Name:** lab02-vnet **(2)**
-- **Region:** <inject key="location" enableCopy="false" /> **(3)**
+- **Resource group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false"/>** **(1)**
+- **Name:** **lab02-vnet** **(2)**
+- **Region:** **East US** **(3)**
 
     ![Picture 2](../images/upd-dp-300-module-02-lab-05.png)
 
@@ -31,7 +31,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 
 7. In the **Edit subnet** pane on the right, expand the **Services** drop-down, and select **Microsoft.Sql**. Select **Save**.
 
-## Provision an Azure SQL Database
+## Task 2 - Provision an Azure SQL Database
 
 1. From the Azure Portal, search for “SQL databases” in the search box at the top, then click **SQL databases** from the list of options.
 
@@ -44,11 +44,11 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 3. On the **Create SQL Database** page, select the following options on the **Basics** tab and then click **Next: Networking**.
 
 - **Subscription:** Use existing subscription
-- **Resource group:** **contoso-rg-<inject key="Deployment-id" enableCopy="false" />**
+- **Resource group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false"/>**
 - **Database Name:** AdventureWorksLT
 - **Server:** click on **Create new** link. The **Create SQL Database Server** page will open. Provide the server details as follow:
-- **Server name:** dp300-lab-<inject key="Deployment-id" enableCopy="false" /> **(1)**
-- **Location:**  <inject key="location" enableCopy="false" /> **(2)**
+- **Server name:** dp300-lab-<inject key="DeploymentID" enableCopy="false"/> **(1)**
+- **Location:**  <inject key="location" enableCopy="false"/> **(2)**
 - **Authentication method:** Use SQL authentication **(3)**
 - **Server admin login:** dp300admin **(4)**
 - **Password:** dp300P@ssword! **(5)**
@@ -78,12 +78,12 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 8. Complete the **Create private endpoint** right pane as follows:
 
 - **Subscription:**  Use existing subscription
-- **Resource group:**  **contoso-rg-<inject key="Deployment-id" enableCopy="false" />**
-- **Location:** <inject key="location" enableCopy="false" />
+- **Resource group:**  **contoso-rg-<inject key="DeploymentID" enableCopy="false"/>**
+- **Location:** <inject key="location" enableCopy="false"/>
 - **Name:** DP-300-SQL-Endpoint **(1)**
 - **Target sub-resource:** SqlServer **(2)**
-- **Virtual network:** lab02-vnet **(3)**
-- **Subnet:** lab02-vnet/default (10.x.0.0/24) **(4)**
+- **Virtual network:** lab02-vnet(contoso-rg-<inject key="DeploymentID" enableCopy="false"/> **(3)**
+- **Subnet:** default (10.x.0.0/24) **(4)**
 - **Integrate with private DNS zone:** Yes **(5)**
 - **Private DNS zone:** keep the default value
 - Review settings, and then click **OK**
@@ -112,7 +112,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
     3. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     4. If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out. 
  
-## Enable access to an Azure SQL Database
+## Task 3 - Enable access to an Azure SQL Database
 
 1. From the **SQL database** page, select the **Overview** section, and then select the link for the server name in the top section:
 
@@ -132,7 +132,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
     
     
 
-## Connect to an Azure SQL Database in Azure Data Studio
+## Task 4 - Connect to an Azure SQL Database in Azure Data Studio
 
 1. Launch Azure Data Studio from the lab virtual machine.
 
@@ -147,7 +147,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 3. In the **Connection** sidebar, fill out the **Connection Details** section with connection information to connect to the SQL database created previously.
 
 - Connection Type: **Microsoft SQL Server (1)**
-- Server: Enter the name of the SQL Server created previously. For example: **dp300-lab-<inject key="Deployment-id" enableCopy="false" />.database.windows.net (2)**
+- Server: Enter the name of the SQL Server created previously. For example: **dp300-lab-<inject key="DeploymentID" enableCopy="false"/>.database.windows.net (2)**
 - Authentication Type: **SQL Login (3)**
 - User name: **dp300admin (4)**
 - Password: **dp300P@ssword! (5)**
@@ -170,7 +170,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 
     ![Picture 20](../images/upd-dp-300-module-02-lab-28.png)
 
-## Query an Azure SQL Database with a SQL Notebook
+## Task 5 - Query an Azure SQL Database with a SQL Notebook
 
 1. In Azure Data Studio, connected to this lab’s AdventureWorksLT database, click the **New Notebook** button.
 
