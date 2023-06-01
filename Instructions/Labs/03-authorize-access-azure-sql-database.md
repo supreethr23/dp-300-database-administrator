@@ -10,19 +10,19 @@ You've been hired as a Senior Database Administrator to help ensure the security
  
 1. On the Azure portal home page select **All resources**.
 
-   ![Screenshot of the Azure portal home page, selecting All resources](../images/dp300-lab3-img2.png)
+   ![Screenshot of the Azure portal home page, selecting All resources](../images/dp300-lab3-img2_update.png)
 
-1. Search for **dp300 (1)** and select the Azure SQL Database server **dp300-lab-<inject key="Deployment-id" enableCopy="false" />(2)**
+1. Search for **dp300 (1)** and select the Azure SQL Database server **dp300-lab-<inject key="DeploymentID" enableCopy="false" />(2)**
 
-   ![Screenshot selecting Not Configured](../images/dp300-lab3-img3.png)
+   ![Screenshot selecting Not Configured](../images/dp300-lab3-img3_update.png)
 
 1. On the Overview page, select the **Not Configured** next to **Active Directory Admin**.
 
-   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4.png)
+   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4_new.png)
 
 1. On the next screen, select **Set admin**.
 
-   ![Screenshot selecting Set admin](../images/dp300-lab3-img5.png)
+   ![Screenshot selecting Set admin](../images/dp300-lab3-img5_update.png)
 
 1. In the **Azure Active Directory** sidebar, search for the Azure username you logged into the Azure portal with, then click on **Select**.
 
@@ -44,7 +44,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
     >**NOTE:** When you first try to sign in to an Azure SQL database, You may be asked to add your client IP address to the firewall. SQL Server Management Studio can do this for you. Use the Azure Portal **password** from the **Environment Details** tab, then select **Sign in**, choose your Azure credentials and then select **OK**.
    
-   ![Screenshot of adding the client IP address](../images/dp300-lab3-img10.png)
+   ![Screenshot of adding the client IP address](../images/lab3_sql_pass.png)
    
    > **Congratulations**  on completing the task! Now, it's time to validate it. Here are the steps:
     1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -135,6 +135,6 @@ In this task you will manage access to the database and its objects. The first t
     EXECUTE SalesLT.DemoProc
     ```
 
-   ![Screenshot showing the returned rows of data from the stored procedure](../images/dp300-lab3-img14.png)
+   ![Screenshot showing the returned rows of data from the stored procedure](../images/dp300-lab3-img14_new.png)
 
 In this exercise, you've seen how you can use Azure Active Directory to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
