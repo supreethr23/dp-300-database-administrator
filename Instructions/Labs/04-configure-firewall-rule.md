@@ -12,7 +12,7 @@ You have been hired as a Senior Database Administrator to help ensure the securi
 
     ![A screenshot of a social media post Description automatically generated](../images/dp300-lab4-img2.png)
 
-1. Select the server name **dp300-lab-<inject key="Deployment-id" enableCopy="false" />** to be taken to the detail page (you may have a different resource group and location assigned for your SQL server).
+1. Select the server name **dp300-lab-<inject key="DeploymentID" enableCopy="false" />** to be taken to the detail page (you may have a different resource group and location assigned for your SQL server).
 
     ![A screenshot of a social media post Description automatically generated](../images/dp300-lab4-img3.png)
 
