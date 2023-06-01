@@ -18,7 +18,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 1. On the Overview page, select the **Not Configured** next to **Active Directory Admin**.
 
-   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4_update.png)
+   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4_new.png)
 
 1. On the next screen, select **Set admin**.
 
