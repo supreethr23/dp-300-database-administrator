@@ -37,20 +37,14 @@ You are a database administrator for AdventureWorks. You need to create a test e
 
     ![Picture 12](../images/dp-300-lab1-7.png)
 
-1. On the **Disks** tab, review the configuration and click **Next:Networking>**
-
-1. On the **Networking** tab, review the configuration and click **Next:Management>**
+1. Review the configuration on **Disks** tab, **Networking** tab  and navigate to  **Next:Management>** 
 
 1. On the **Management (1)** tab and review the configuration and Verify that **Enable auto_shutdown (2)** is unchecked, click **Next:Monitoring> (3)**
 
     ![Picture 15](../images/dp-300-lab1-6.png)
     
-1. On the **Monitoring** tab, review the configuration and click **Next:Advanced>**
+1. Review the configuration on  **Monitoring** tab, **Advanced** tab and  **SQL Server settings** tab 
  
-1. On the **Advanced** tab, review the configuration and click **Next:SQL Server settings>**
-   
-1. On the **SQL Server settings** tab and review the configuration.
-
     >**Note**: you can also configure the storage for your SQL Server VM on this screen. By default, the SQL Server Azure VM templates create one premium disk with read caching for data, one premium disk without caching for transaction log, and uses the local SSD (D:\ on Windows) for tempdb.
 
 1. Select the **Review + create** button. Then select **Create**.
