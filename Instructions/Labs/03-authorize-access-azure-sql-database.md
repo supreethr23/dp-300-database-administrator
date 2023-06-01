@@ -44,7 +44,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
     >**NOTE:** When you first try to sign in to an Azure SQL database, You may be asked to add your client IP address to the firewall. SQL Server Management Studio can do this for you. Use the Azure Portal **password** from the **Environment Details** tab, then select **Sign in**, choose your Azure credentials and then select **OK**.
    
-   ![Screenshot of adding the client IP address](../images/dp300-lab3-img10.png)
+   ![Screenshot of adding the client IP address](../images/lab3_sql_pass.png)
    
    > **Congratulations**  on completing the task! Now, it's time to validate it. Here are the steps:
     1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
