@@ -86,11 +86,11 @@ You've been hired as a Senior Data Engineer to help automate day to day operatio
 
 1. Close the **azuredeploy.json** tab and return to the tab containing the **sql-database** GitHub folder. Scroll down and select **Deploy to Azure**. Enter **Username** and **Password** from the **Environment Details** Tab.
 
-    ![Deploy to Azure button](../images/dp300-lab11-img1.png)
+    ![Deploy to Azure button](../images/dp300-lab11-img1_newone.png)
 
 1. The **Create a SQL Server and Database** quickstart template page will open on Azure portal, with resource details partially filled in from the ARM template. Complete the blank fields with the information below:
 
-    - **Resource group:** contoso-rg-<inject key="Deployment-id" enableCopy="false" />
+    - **Resource group:** contoso-rg-<inject key="DeploymentID" enableCopy="false" />
     - **Administrator Login:** labadmin
     - **Administrator Login Password:** &lt;enter a strong password&gt;
     
