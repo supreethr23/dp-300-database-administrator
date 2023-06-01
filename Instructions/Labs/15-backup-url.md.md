@@ -8,9 +8,9 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
     ![Picture 03](../images/upd-dp-300-module-15-lab-00.png)
 
-1. Select the Windows Start button and type **SSMS (1)**. Select **Microsoft SQL Server Management Studio 19 (2)** from the list.  
+1.  Double click on icon SSMS on your labvm. 
 
-    ![Picture 01](../images/upd-dp-300-module-01-lab-34.png)
+       ![Picture 01](../images/ssms.png)
 
 1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
