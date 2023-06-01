@@ -8,25 +8,25 @@ You have been hired as a Senior Database Administrator help ensure the security 
 
 1. From the Azure Portal, search for “SQL servers” in the search box at the top, then click on **SQL servers** from the list of options.
 
-    ![Picture 1](../images/upd-dp-300-module-04-lab-1.png)
+    ![Picture 1](../images/dp-300-lab5-1.png)
 
-1. Select the server name **dp300-lab- <inject key="Deployment-id"></inject>** to be taken to the detail page (you may have a different location assigned for your SQL server).
+1. Select the server name **dp300-lab- <inject key="DeploymentId"></inject>** to be taken to the detail page (you may have a different location assigned for your SQL server).
 
-    ![A screenshot of a social media post Description automatically generated](../images/upd-dp-300-module-04-lab-2.png)
+    ![A screenshot of a social media post Description automatically generated](../images/dp-300-lab5-2.png)
 
-1. From the main blade of your Azure SQL server, navigate to the **Security** section, and select **Microsoft Defender for Cloud (1)**.
+1. From the main blade of your Azure SQL server, navigate to the **Security** section, and select **Microsoft Defender for Cloud**.
 
-    ![Screenshot of selecting the Microsoft Defender for Cloud option](../images/upd-dp-300-module-05-lab-01.png)
+1. On the **Microsoft Defender for Cloud (1)** page, select **Enable Microsoft Defender for SQL (2)**.
 
-    On the **Microsoft Defender for Cloud** page, select **Enable Microsoft Defender for SQL (2)**.
+    ![Screenshot of selecting the Microsoft Defender for Cloud option](../images/dp-300-lab5-3.png)   
 
 1. The following notification message will show up after Azure Defender for SQL is successfully enabled.
 
     ![Screenshot of selecting the Configure option](../images/upd-dp-300-module-05-lab-02_1.png)
 
-1. On the **Microsoft Defender for Cloud** page, select the **Configure** link (You may need to refresh the page to see this option)
+1. On the **Microsoft Defender for Cloud (1)** page, select the **Configure (2)** link (You may need to refresh the page to see this option)
 
-    ![Screenshot of selecting the Configure option](../images/defenderconfigure.png)
+    ![Screenshot of selecting the Configure option](../images/dp-300-lab5-4.png)
 
 1. On the **Server settings** page, notice that toggle switch under **MICROSOFT DEFENDER FOR SQL** is set to **ON**.
 
