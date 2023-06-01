@@ -12,8 +12,6 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 
 2. In the left navigation pane, click **Virtual Networks**
 
-    ![Picture 3](../images/upd-dp-300-module-02-lab-04.png)
-
 3. Click **+ Create** to open the **Create Virtual Network** page. On the **Basics** tab, complete the following information:
 
 - **Subscription:** Use existing subscription
@@ -88,8 +86,6 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 - **Private DNS zone:** keep the default value
 - Review settings, and then click **OK**
 
-    ![Picture 10](../images/upd-dp-300-module-02-lab-16.png)
-
 9. The new endpoint will appear on the **Private endpoints** list.
 
     ![Picture 11](../images/upd-dp-300-module-02-lab-17.png)
@@ -156,7 +152,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 - Name (optional) can be populated with a friendly name of the database, if desired
 - Review settings and click **Connect (8)**
 
-    ![Picture 19](../images/dp300-lab2-img1.png)
+  >**NOTE:** if in **Database** the option doesn't come, try to reopen **Azure Data Studio** again, and re-perform the steps from 2-3.
 
   >**NOTE:** You may be asked to add a firewall rule that allows your client IP access to this server. If you are asked to add a firewall rule, click on **Add account** and login to your Azure account. On **Create new firewall rule** screen, click **OK**.
 
