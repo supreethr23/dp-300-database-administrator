@@ -21,7 +21,7 @@ You are a database administrator for AdventureWorks. You need to create a test e
 1. On the **Create a virtual machine** page, enter the following information:
 
     - **Subscription:** Use existing subscription 
-    - **Resource group:** contoso-rg-<inject key="Deployment-id" enableCopy="false" />
+    - **Resource group:** contoso-rg-<inject key="DeploymentID" enableCopy="false"/>
     - **Virtual machine name:**  azureSQLServerVM
     - **Region:** <inject key="location" enableCopy="false" />
     - **Availability Options:** No infrastructure redundancy required
