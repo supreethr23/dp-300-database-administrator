@@ -42,22 +42,20 @@ You have been hired as a Senior Database Administrator help ensure the security 
 
 1. From the main blade of your Azure SQL server, navigate to the **Settings** section, and select **SQL databases (1)**, and then select the database name **(2)**.
 
-    ![Screenshot showing selecting the AdventureWOrksLT database](../images/upd-dp-300-module-05-lab-04.png)
+    ![Screenshot showing selecting the AdventureWOrksLT database](../images/dp-300-lab5-5.png)
 
-1. On the main blade for the **AdventureWorksLT** database, navigate to the **Security** section, and then select **Data Discovery & Classification**.
-
-    ![Screenshot showing the Data Discovery & Classification](../images/upd-dp-300-module-05-lab-05.png)
+1. On the main blade for the **AdventureWorksLT** database, from left navigation pane select **Data Discovery & Classification** under **Security** section.
   
 1. On the **Data Discovery & Classification** page, you will see an informational message that reads: **Currently using SQL Information Protection policy. We have found 15 columns with classification recommendations**. Select this link.
 
-      ![Screenshot showing the Classification Recommendations](../images/dp-300-module-05-lab-06.png)
+      ![Screenshot showing the Classification Recommendations](../images/dp-300-lab5-6.png)
       
 1. On the next **Data Discovery & Classification** screen select the check box next to **Select all**, select **Accepted selected recommendations**, and then select **Save** to save the classifications into the database.
 
-    ![Screenshot showing the Accept selected recommendations](../images/Dp-300newu2.png)
+    ![Screenshot showing the Accept selected recommendations](../images/dp-300-lab5-7.png)
     
 1. Back to the **Data Discovery & Classification** screen, notice that fifteen columns were successfully classified across five different tables.
 
-    ![Screenshot showing the Accept selected recommendations](../images/upd-dp-300-module-05-lab-08.png)
+    ![Screenshot showing the Accept selected recommendations](../images/dp-300-lab5-8.png)
 
 In this exercise, you've enhanced the security of an Azure SQL Database by enabling Microsoft Defender for SQL. You've also created classified columns based on Azure portal recommendations.
