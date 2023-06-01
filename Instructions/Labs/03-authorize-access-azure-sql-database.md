@@ -18,11 +18,11 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 1. On the Overview page, select the **Not Configured** next to **Active Directory Admin**.
 
-   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4.png)
+   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4_update.png)
 
 1. On the next screen, select **Set admin**.
 
-   ![Screenshot selecting Set admin](../images/dp300-lab3-img5.png)
+   ![Screenshot selecting Set admin](../images/dp300-lab3-img5_update.png)
 
 1. In the **Azure Active Directory** sidebar, search for the Azure username you logged into the Azure portal with, then click on **Select**.
 
