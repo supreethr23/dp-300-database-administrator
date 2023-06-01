@@ -90,7 +90,7 @@ You've been hired as a Senior Data Engineer to help automate day to day operatio
 
 1. The **Create a SQL Server and Database** quickstart template page will open on Azure portal, with resource details partially filled in from the ARM template. Complete the blank fields with the information below:
 
-    - **Resource group:** contoso-rg-<inject key="Deployment-id" enableCopy="false" />
+    - **Resource group:** contoso-rg-<inject key="DeploymentID" enableCopy="false" />
     - **Administrator Login:** labadmin
     - **Administrator Login Password:** &lt;enter a strong password&gt;
     
