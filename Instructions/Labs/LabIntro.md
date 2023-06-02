@@ -12,8 +12,6 @@
 1. In the JumpVM, click on Azure portal shortcut of Microsoft Edge browser which is created on desktop.
 
    ![](../images/azureportal_icon.png "Lab Environment")
-   >**Note**:On the Welcome to Microsoft Edge page, select **Start without your data** and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select **Confirm and start browsing** on the next page
-
    
 1. On **Sign into Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
@@ -25,12 +23,12 @@
    
      ![](../images/image8.png "Enter Password")
      
-    > If you are getting popup **save password**, then select **Save & Turn on** option.
-     
-   > If you are presented with **Help us protect your account** dialog box, then select **Skip for now** option.
+1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-      ![](../images/MFA.png "Enter Password")
-  
+     ![](media/asklater.png "Action required window")
+     
+    > If you are getting popup **save password**, then select **Save & Turn on** option.
+       
 1. If you see the pop-up **Stay Signed in?**, click No
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
