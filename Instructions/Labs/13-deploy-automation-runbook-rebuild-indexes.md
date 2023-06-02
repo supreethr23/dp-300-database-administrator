@@ -185,10 +185,11 @@ Next you will schedule the runbook to execute on a regular basis.
     ![Screenshot of the created schedule.](../images/dp-300-333.png)
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    2. Hit the Validate button for the corresponding task.
-    3. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    4. If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
 
 Azure Automation delivers a cloud-based automation, and configuration service that supports consistent management across your Azure and non-Azure environments.
 
