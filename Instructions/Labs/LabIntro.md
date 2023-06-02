@@ -25,7 +25,7 @@
      
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-     ![](media/asklater.png "Action required window")
+     ![](../images/asklater.png "Action required window")
      
     > If you are getting popup **save password**, then select **Save & Turn on** option.
        
