@@ -41,7 +41,7 @@ You have been hired as a Senior Data Engineer to help automate day to day operat
     - Select **Review + create**, then select **Create**.
         >**Note:** Wait till action group created successfully then move to next step.
 
-    ![Screenshot of the Create action group page with information added](../images/dp300-lab12-img9.png)
+      ![Screenshot of the Create action group page with information added](../images/dp300-lab12-img9.png)
     
 8. On the **Create an alert rule** screen, select **Details (1)** tab, enter Alert rule name as **emailrule (2)**, then select **Review + create**.
     
