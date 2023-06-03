@@ -15,11 +15,11 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
-    ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
+      ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
     
 1. Select the **Databases (1)** folder, and then **New Query (2)**.
 
-    ![Picture 03](../images/dp-300-lab10-sql2.png)
+     ![Picture 03](../images/dp-300-lab10-sql2.png)
 
 1. In the **New query** window, copy and paste the below T-SQL into it. Execute the query to restore the database.
 
@@ -35,7 +35,7 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 1. You should see a successful message after the restore is complete.
 
-    ![Picture 03](../images/upd-dp-300-module-07-lab-05.png)
+     ![Picture 03](../images/upd-dp-300-module-07-lab-05.png)
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -196,7 +196,7 @@ Next you'll run a workload to generate query statistics for query store, examine
 
       ![Top Resource Consuming Queries Report from Query Store](../images/upd-dp-300-module-10-lab-07.png)
 
-1. The report will open as shown below. On the right, select **Configure**.
+1. The report will open as shown below. On the right, select **Configure (1)**.
 
       ![Expand Query Store](../images/lab10-configure.png)
 
