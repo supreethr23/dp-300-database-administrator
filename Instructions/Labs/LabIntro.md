@@ -29,7 +29,7 @@
      
     > If you are getting popup **save password**, then select **Save & Turn on** option.
        
-1. If you see the pop-up **Stay Signed in?**, click No
+1. If you see the pop-up **Stay Signed in?**, click **No**.
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
