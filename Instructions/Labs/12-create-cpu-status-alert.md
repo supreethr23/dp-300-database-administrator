@@ -24,30 +24,30 @@ You have been hired as a Senior Data Engineer to help automate day to day operat
 
     ![Screenshot of entering 80 and selecting Done](../images/lab12-dp-300-001.png)
 
-5. In the **Actions** tab, select **Create action group**.
+5. In the **Actions (1)** tab, select **Create action group (2)**.
 
     ![Screenshot of selecting the Create action group](../images/dp300-lab12-img7.png)
 
-6. On the **Create action group** screen, type **emailgroup** in the **Action group name** field, and then select **Next: Notifications**.
+6. On the **Create action group** screen, type **emailgroup (1)** in the **Action group name** field, and then select **Next: Notifications (2)**.
 
     ![Screenshot of entering emailgroup and selecting Next: Notifications](../images/dp-300-lab12-02.png)
 
-7. On the **Notifications** tab, enter the following information:
+7. On the **Notifications (1)** tab, enter the following information:
 
-    - **Notification type:** Email/SMS message/Push/Voice
-       > **Note:** When you select this option, a Email/SMS message/Push/Voice flyout will appear. Check the Email property and type the proper email address, you can also use your personal email so that you can receive the notifications as shown in the last steps.
-     - Click on **OK**
-    - **Name:** DemoLab 
+    - **Notification type:** Email/SMS message/Push/Voice **(2)**
+       > **Note:** When you select this option, a Email/SMS message/Push/Voice flyout will appear. Check the Email **(3)** property and type the proper email address **(4)**, you can also use your personal email so that you can receive the notifications as shown in the last steps, Check the SMS **(5)** enter your country code **(6)** and your phone number **(7)**.
+     - Click on **OK (8)**
+    - **Name:** DemoLab (9)
     - Select **Review + create**, then select **Create**.
         >**Note:** Wait till action group created successfully then move to next step.
 
     ![Screenshot of the Create action group page with information added](../images/dp300-lab12-img9.png)
     
-8. On the **Create an alert rule** screen, select **Details** tab, enter Alert rule name as **emailrule (1)**, then select **Review + create (2)**.
+8. On the **Create an alert rule** screen, select **Details (1)** tab, enter Alert rule name as **emailrule (2)**, then select **Review + create**.
     
     ![Screenshot of entering emailgroup and selecting Next: Notifications](../images/lab12-dp-300-0015-step.png)
 
-9. On the **Review + create** tab, Select **Create**.
+9. On the **Review + create (1)** tab, Select **Create (2)**.
 
     ![Screenshot of the Create alert rule page selecting the Create alert rule](../images/lab12-dp-300-02.png)
     
