@@ -136,7 +136,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of creating a runbook.](../images/dp-300-27.png)
 
-1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name** <inject key="sqlServerFqdn"></inject> . Select **Save**, and then select **Publish**.
+1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name (1)** <inject key="sqlServerFqdn"></inject> . Select **Save (2)**, and then select **Publish (3)**.
 
     >**Note:** Please verify that the code has been copied correctly, before saving the runbook.
 
