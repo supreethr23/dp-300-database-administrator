@@ -4,15 +4,15 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
 ## Create an Automation Account
 
-1. In the Azure portal in the search bar type *automation* and then select **Automation Accounts** from the search results, and then select **+ Create**.
+1. In the Azure portal in the search bar type **automation (1)** and then select **Automation Accounts (2)** from the search results, and then select **+ Create**.
 
     ![Screenshot of selecting the Automation Accounts.](../images/dp-300-L1302.png)
 
-1. On the **Create an Automation Account** page, enter the information below, and then select **Review + Create**.
+1. On the **Create an Automation Account** page, enter the information below, and then select **Review + Create (4)**.
 
-    - **Resource Group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false" />**
-    - **Name:** autoAccount
-    - **Location:** Use the default.
+    - **Resource Group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false" />  (1)**
+    - **Name:** autoAccount **(2)**
+    - **Location:** Use the default. **(3)**
 
     ![Screenshot of the Add Automation Account screen.](../images/dp300-lab13-img1.png)
 
@@ -26,7 +26,7 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
-    ![Screenshot of searching for existing SQL databases.](../images/dp-300(4).png)
+    ![Screenshot of searching for existing SQL databases.](../images/sql.png)
 
 1. Select the SQL database **AdventureWorksLT**.
 
@@ -108,7 +108,7 @@ The next steps consist of configuring the assets required in preparation for the
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
-    ![Screenshot of searching for existing SQL databases.](../images/dp-300-21.png)
+    ![Screenshot of searching for existing SQL databases.](../images/sql.png)
 
 1. Select the SQL database **AdventureWorksLT**.
 
