@@ -26,7 +26,7 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
-    ![Screenshot of searching for existing SQL databases.](../images/sql.png)
+   ![Screenshot of searching for existing SQL databases.](../images/sql.png)
 
 1. Select the SQL database **AdventureWorksLT**.
 
@@ -95,12 +95,12 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of selecting Credentials option.](../images/dp-300-19.png)
 
-1. Select **+ Add a Credential**, enter the information below, and then select **Create**.
+1. Select **+ Add a Credential**, enter the information below, and then select **Create (5)**.
 
-    - Name: **SQLUser**
-    - User name: **sqladmin**
-    - Password: **P@ssw0rd01**
-    - Confirm password: **P@ssw0rd01**
+    - Name: **SQLUser (1)**
+    - User name: **sqladmin (2)**
+    - Password: **P@ssw0rd01 (3)**
+    - Confirm password: **P@ssw0rd01 (4)**
 
     ![Screenshot of adding account credentials.](../images/dp-300-20.png)
 
@@ -176,11 +176,11 @@ Next you will schedule the runbook to execute on a regular basis.
 
 1. Specify the start time of **4:00AM** of the following day and in the **Pacific Time** time zone. Configure the reoccurrence for every **1** days. Do not set an expiration.
 
-    ![Screenshot of the New Schedule pop out completed with example information.](../images/L13T5S5.png)
+    ![Screenshot of the New Schedule pop out completed with example information.](../images/L13T5S5old.png)
 
 1. Select **Create**.
 
-1. The schedule is now created and linked to the runbook. Select **OK**.
+1. The schedule is now created **(1)** and linked to the runbook. Select **OK (2)**.
 
     ![Screenshot of the created schedule.](../images/dp-300-333.png)
     
