@@ -69,7 +69,7 @@ The next steps consist of configuring the assets required in preparation for the
 
 1. On the Azure portal, in the top search box, type **automation**.
 
-    ![Screenshot of selecting the Automation Accounts.](../images/dp-300-12.png)
+    ![Screenshot of selecting the Automation Accounts.](../images/dp-300-L1302.png)
 
 1. Select the automation account that you created.
 
@@ -87,7 +87,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of selecting Select.](../images/dp-300-17.png)
 
-1. On the **Add a module** page, select the latest runtime version available, then select **Import**. This will import the PowerShell module into your Automation account.
+1. On the **Add a module** page, select the latest runtime version available **(1)**, then select **Import (2)**. This will import the PowerShell module into your Automation account.
 
     ![Screenshot of selecting Import.](../images/dp-300-18.png)
 
@@ -132,7 +132,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     >**Note:** As we've learned, note that there are two existing runbooks created. These were automatically created during the automation account deployment.
 
-1. Enter the runbook name as **IndexMaintenance** and a runbook type of **PowerShell**. Select the latest runtime version available, then select **Create**.
+1. Enter the runbook name as **IndexMaintenance (1)** and a runbook type of **PowerShell (2)**. Select the latest runtime version available **(3)**, then select **Create (4)**.
 
     ![Screenshot of creating a runbook.](../images/dp-300-27.png)
 
