@@ -39,10 +39,11 @@ You have been hired as a database administrator to identify performance related 
     ![Picture 03](../images/dp-300-lab-09-img5.png)
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    2. Hit the Validate button for the corresponding task.
-    3. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    4. If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
    
 ## Examine the query and identify the problem
 
@@ -192,9 +193,10 @@ There are two approaches we can implement to fix the implicit conversion warning
     Examine the query plan, and note that you can now use an integer to filter by *NationalIDNumber* without the implicit conversion warning. The SQL query optimizer can now generate and execute the most optimal plan.
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    2. Hit the Validate button for the corresponding task.
-    3. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    4. If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
 
 In this exercise, you've learned how to identify query problems caused by implicit data type conversions, and how to fix it to improve the query plan.

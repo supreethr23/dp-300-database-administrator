@@ -4,15 +4,15 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
 ## Create an Automation Account
 
-1. In the Azure portal in the search bar type *automation* and then select **Automation Accounts** from the search results, and then select **+ Create**.
+1. In the Azure portal in the search bar type **automation (1)** and then select **Automation Accounts (2)** from the search results, and then select **+ Create**.
 
     ![Screenshot of selecting the Automation Accounts.](../images/dp-300-L1302.png)
 
-1. On the **Create an Automation Account** page, enter the information below, and then select **Review + Create**.
+1. On the **Create an Automation Account** page, enter the information below, and then select **Review + Create (4)**.
 
-    - **Resource Group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false" />**
-    - **Name:** autoAccount
-    - **Location:** Use the default.
+    - **Resource Group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false" />  (1)**
+    - **Name:** autoAccount **(2)**
+    - **Location:** Use the default. **(3)**
 
     ![Screenshot of the Add Automation Account screen.](../images/dp300-lab13-img1.png)
 
@@ -26,7 +26,7 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
-    ![Screenshot of searching for existing SQL databases.](../images/dp-300(4).png)
+   ![Screenshot of searching for existing SQL databases.](../images/sql.png)
 
 1. Select the SQL database **AdventureWorksLT**.
 
@@ -55,9 +55,9 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
     > **Note:** The purpose of this script is to perform an intelligent defragmentation on one or more indexes, as well as required statistics update, for one or more databases.
 
-     ![Screenshot of pasting the code in a new Query window.](../images/query-editor1.png)
+1. Delete **ï» (1)**,**`USE msdb` and `GO` (2)** on lines 5 and 6 of the query (that are highlighted in the screenshot) , and then select **Run (3)**.
 
-1. Delete **ï»**,`USE msdb` and `GO` on lines 5 and 6 of the query (that are highlighted in the screenshot) , and then select **Run**.
+      ![Screenshot of pasting the code in a new Query window.](../images/query-editor1.png)
 
 1. Expand the **Stored Procedures** folder to see what was created.
 
@@ -69,7 +69,7 @@ The next steps consist of configuring the assets required in preparation for the
 
 1. On the Azure portal, in the top search box, type **automation**.
 
-    ![Screenshot of selecting the Automation Accounts.](../images/dp-300-12.png)
+    ![Screenshot of selecting the Automation Accounts.](../images/dp-300-L1302.png)
 
 1. Select the automation account that you created.
 
@@ -87,7 +87,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of selecting Select.](../images/dp-300-17.png)
 
-1. On the **Add a module** page, select the latest runtime version available, then select **Import**. This will import the PowerShell module into your Automation account.
+1. On the **Add a module** page, select the latest runtime version available **(1)**, then select **Import (2)**. This will import the PowerShell module into your Automation account.
 
     ![Screenshot of selecting Import.](../images/dp-300-18.png)
 
@@ -95,12 +95,12 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of selecting Credentials option.](../images/dp-300-19.png)
 
-1. Select **+ Add a Credential**, enter the information below, and then select **Create**.
+1. Select **+ Add a Credential**, enter the information below, and then select **Create (5)**.
 
-    - Name: **SQLUser**
-    - User name: **sqladmin**
-    - Password: **P@ssw0rd01**
-    - Confirm password: **P@ssw0rd01**
+    - Name: **SQLUser (1)**
+    - User name: **sqladmin (2)**
+    - Password: **P@ssw0rd01 (3)**
+    - Confirm password: **P@ssw0rd01 (4)**
 
     ![Screenshot of adding account credentials.](../images/dp-300-20.png)
 
@@ -108,7 +108,7 @@ The next steps consist of configuring the assets required in preparation for the
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
-    ![Screenshot of searching for existing SQL databases.](../images/dp-300-21.png)
+    ![Screenshot of searching for existing SQL databases.](../images/sql.png)
 
 1. Select the SQL database **AdventureWorksLT**.
 
@@ -120,7 +120,7 @@ The next steps consist of configuring the assets required in preparation for the
 
 1. On the Azure portal, in the top search box, type **automation**.
 
-    ![Screenshot of selecting the Automation Accounts.](../images/dp-300-24.png)
+    ![Screenshot of selecting the Automation Accounts.](../images/dp-300-L1302.png)
 
 1. Select the automation account that you created.
 
@@ -132,11 +132,11 @@ The next steps consist of configuring the assets required in preparation for the
 
     >**Note:** As we've learned, note that there are two existing runbooks created. These were automatically created during the automation account deployment.
 
-1. Enter the runbook name as **IndexMaintenance** and a runbook type of **PowerShell**. Select the latest runtime version available, then select **Create**.
+1. Enter the runbook name as **IndexMaintenance (1)** and a runbook type of **PowerShell (2)**. Select the latest runtime version available **(3)**, then select **Create (4)**.
 
     ![Screenshot of creating a runbook.](../images/dp-300-27.png)
 
-1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name** <inject key="sqlServerFqdn"></inject> . Select **Save**, and then select **Publish**.
+1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name (1)** <inject key="sqlServerFqdn"></inject> . Select **Save (2)**, and then select **Publish (3)**.
 
     >**Note:** Please verify that the code has been copied correctly, before saving the runbook.
 
@@ -176,19 +176,20 @@ Next you will schedule the runbook to execute on a regular basis.
 
 1. Specify the start time of **4:00AM** of the following day and in the **Pacific Time** time zone. Configure the reoccurrence for every **1** days. Do not set an expiration.
 
-    ![Screenshot of the New Schedule pop out completed with example information.](../images/L13T5S5.png)
+    ![Screenshot of the New Schedule pop out completed with example information.](../images/L13T5S5old.png)
 
 1. Select **Create**.
 
-1. The schedule is now created and linked to the runbook. Select **OK**.
+1. The schedule is now created **(1)** and linked to the runbook. Select **OK (2)**.
 
     ![Screenshot of the created schedule.](../images/dp-300-333.png)
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    2. Hit the Validate button for the corresponding task.
-    3. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    4. If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
 
 Azure Automation delivers a cloud-based automation, and configuration service that supports consistent management across your Azure and non-Azure environments.
 
