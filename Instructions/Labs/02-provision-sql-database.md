@@ -27,7 +27,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 
 6. Click on the **default** subnet link. Note that the **Subnet address range** you see might be different.
 
-7. In the **Edit subnet** pane on the right, expand the **Services** drop-down, and select **Microsoft.Sql**. Select **Save**.
+7. Under **Service Endpoints** pane on the right, expand the **Services** drop-down, and select **Microsoft.Sql**. Select **Save**.
 
 ## Task 2 - Provision an Azure SQL Database
 
@@ -54,7 +54,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 
   Your **Create SQL Database Server** page should look similar to the one below. Then click **OK (7)**.
 
-     ![Picture 7](../images/upd-dp-300-module-02-lab-11.png)
+     ![Picture 7](../images/database.png)
 
  -  Back to the **Create SQL Database** page, make sure **Want to use Elastic Pool?** is set to **No**.
  -  On the **Compute + Storage** option, click on **Configure database** link. On the **Configure** page, for **Service tier** dropdown, select **Basic**, and then **Apply**.
@@ -80,7 +80,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 - **Location:** <inject key="location" enableCopy="false"/>
 - **Name:** DP-300-SQL-Endpoint **(1)**
 - **Target sub-resource:** SqlServer **(2)**
-- **Virtual network:** lab02-vnet(contoso-rg-<inject key="DeploymentID" enableCopy="false"/> **(3)**
+- **Virtual network:** lab02-vnet(contoso-rg-<inject key="DeploymentID" enableCopy="false"/>) **(3)**
 - **Subnet:** default (10.x.0.0/24) **(4)**
 - **Integrate with private DNS zone:** Yes **(5)**
 - **Private DNS zone:** keep the default value
@@ -99,6 +99,8 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 12. Click **Review + Create**.
 
 13. Review the settings before clicking **Create**.
+
+    >**NOTE:** deployment will take time.
 
 14. Once the deployment is complete, click **Go to resource**.
 
@@ -231,5 +233,11 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 12. Within Azure Data Studio save the notebook from File menu (either Save or Save As) to the **C:\LabFiles\Deploy Azure SQL Database** path (create the folder structure if it does not exist). Make sure the file extension is **.ipynb**(Notebook)
 
 13. Close the tab for the Notebook from inside of Azure Data Studio. From the File Menu, select Open File, and open the notebook you just saved. Observe that query results were saved along with the queries in the notebook.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 In this exercise, you've seen how you deploy a Azure SQL Database with a Virtual Network Endpoint. You were also able to connect to the SQL Database you've created using SQL Server Management Studio.
