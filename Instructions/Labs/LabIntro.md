@@ -3,7 +3,7 @@
 1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the lab guide bottom area to switch to different exercises of the lab guide.
 
 
-   ![](../images/getting.png "Lab Environment")
+    ![](../images/getting.png "Lab Environment")
 
 
    
@@ -14,7 +14,7 @@
 ## Login to Azure Portal
 1. In the JumpVM, click on Azure portal shortcut of Microsoft Edge browser which is created on desktop.
 
-   ![](../images/azureportal_icon.png "Lab Environment")
+   ![](../images/getting.png "Lab Environment")
    
 1. On **Sign into Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
