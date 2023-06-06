@@ -21,7 +21,7 @@ You have been hired as a database administrator to identify performance related 
 
     ![Picture 03](../images/dp-300-lab08-02.png)
 
-4. In the **New query** window, copy and paste the below T-SQL into it. Execute the query to restore the database.
+4. In the **New query** window, copy and paste the below T-SQL into it. Select **Execute** to execute this query to restore the database.
 
     ```sql
     RESTORE DATABASE AdventureWorks2017
@@ -102,6 +102,7 @@ You have been hired as a database administrator to identify performance related 
 
     GO
     ```
+    >**Note:** This query will take time to execute.
 
 1. Open another query window by selecting the **New Query** button. Copy and paste the following T-SQL code into the new query window. Select **Execute** to execute this query.
 
@@ -115,8 +116,7 @@ You have been hired as a database administrator to identify performance related 
     FROM Person.Person
     WHERE FirstName = 'David'
     ```
-
-    >**Note:** this query does not return any results and appears to run indefinitely.
+    >**Note:** This query does not return any results and appears to run indefinitely.
 
 1. In **Object Explorer**, expand  **Management** -> **Extended Events** -> **Sessions** -> **Blocking**.
 
@@ -136,9 +136,11 @@ You have been hired as a database administrator to identify performance related 
 
     ![Picture 04](../images/dp300-lab8-img8.png)
     
-    >**Note:** This above XML File might take sometime to open please proceed with next step.
+    >**Note:** This above XML File might take some time to open please proceed with the next step.
 
 1. Alternatively, you can run the query below to identify sessions blocking other sessions, including a list of session IDs blocked per *session_id*.
+
+    >**Note:** click on **New Query**, and copy-paste the query, then select **Execute** to run the following query.
 
     ```sql
     WITH cteBL (session_id, blocking_these) AS 
