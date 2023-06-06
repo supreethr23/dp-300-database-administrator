@@ -17,7 +17,7 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
 - **Subscription:** Use existing subscription
 - **Resource group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false"/>** **(1)**
 - **Name:** **lab02-vnet** **(2)**
-- **Region:** **East US** **(3)**
+- **Region:** <inject key="location" enableCopy="false"/> **(3)**
 
     ![Picture 2](../images/upd-dp-300-module-02-lab-05.png)
 
