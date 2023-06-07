@@ -40,9 +40,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
 ## Configure Backup to URL
 
-1. From the lab virtual machine, Double-click on the **Azure Portal** and connect to the Portal using the Azure **Username** <inject key="AzureAdUserEmail"></inject> and **Password**  <inject key="AzureAdUserPassword"></inject>
-
-1. Open a **Cloud Shell** prompt by selecting the icon shown below.
+1. In Azure Portal, open a **Cloud Shell** prompt by selecting the icon shown below.
 
     ![Screenshot of cloud shell icon on Azure portal.](../images/upd-dp-300-module-15-lab-01.png)
 
