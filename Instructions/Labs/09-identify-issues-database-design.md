@@ -15,7 +15,9 @@ You have been hired as a database administrator to identify performance related 
 
 1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
-    ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
+   > **NOTE:** If the default instance name is blank, you can type the name **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
+
+   ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
     
 1. Select the **Databases** folder, and then **New Query**.
 
