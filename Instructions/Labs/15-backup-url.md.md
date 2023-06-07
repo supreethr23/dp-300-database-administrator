@@ -8,11 +8,13 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
     ![Picture 03](../images/upd-dp-300-module-15-lab-00.png)
 
-1.  Double click on icon SSMS on your labvm. 
+1. Double-click on icon SSMS on your labvm. 
 
-       ![Picture 01](../images/ssms.png)
+    ![Picture 01](../images/ssms.png)
 
 1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
+
+    > **NOTE:** If the default instance name is blank, you can type the name **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
     ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
 
@@ -20,7 +22,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
     ![Picture 03](../images/upd-dp-300-module-07-lab-04.png)
 
-1. In the **New query window**, copy and paste the below T-SQL into it. Execute the query to restore the database.
+1. In the **New query window**, copy and paste the below T-SQL into it. Select **Execute** to restore the database.
 
     ```sql
     RESTORE DATABASE AdventureWorks2017
@@ -38,9 +40,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
 ## Configure Backup to URL
 
-1. From the lab virtual machine, start a browser session and navigate to [https://portal.azure.com](https://portal.azure.com/). Connect to the Portal using the Azure **Username** <inject key="AzureAdUserEmail"></inject> and **Password**  <inject key="AzureAdUserPassword"></inject>
-
-    ![Screenshot of Azure portal sign in page](../images/upd-dp-300-module-01-lab-01.png)
+1. Open **Azure Portal**, if you are not logged in previously to the **Azure Portal**, please log in with these credentials **Username** <inject key="AzureAdUserEmail"></inject> and **Password**  <inject key="AzureAdUserPassword"></inject>
 
 1. Open a **Cloud Shell** prompt by selecting the icon shown below.
 
@@ -54,7 +54,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
     ![Screenshot of create storage for cloud shell on Azure portal.](../images/upd-dp-300-module-15-lab-03.png)
 
-1. Use the existing **Resource group** as **contoso-rg-<inject key="DeploymentID" enableCopy="false" />(1)** and specify new names for **Storage account** as **dp300storage<inject key="DeploymentID" enableCopy="false" />(2)** and **File share** as **dp300fileshare (3)**, as shown in the dialog below. Then select **Create storage (4)**.
+1. Use the existing **Resource group** as **contoso-rg-<inject key="DeploymentID" enableCopy="false" />(1)** and specify new names for **Storage account** as **dp300storage<inject key="DeploymentID" enableCopy="false" /> (2)** and **File share** as **dp300fileshare (3)**, as shown in the dialog below. Then select **Create storage (4)**.
 
     ![Screenshot of the create storage account and file share on Azure portal.](../images/upd-dp-300-module-15-lab-04.png)
 
@@ -127,11 +127,8 @@ Now that the functionality is configured, you can generate a backup file as a bl
 1. Create the credential that will be used to access storage in the cloud with the following Transact-SQL. Repalce the following values, then select **Execute**.
 
    >**NOTE:** Replace **<storage_account_name>** with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />**. Replace the **key_value** with the **SAS** that you have copied in the notepad. the value generated at the end of the previous task in this format:
-   
-       `'se=2023-12-31T00%3A00Z&sp=rwdl&sv=2018-11-09&sr=csig=rnoGlveGql7ILhziyKYUPBq5ltGc/pzqOCNX5rrLdRQ%3D'`
-       
-       
-       
+   `'se=2023-12-31T00%3A00Z&sp=rwdl&sv=2018-11-09&sr=csig=rnoGlveGql7ILhziyKYUPBq5ltGc/pzqOCNX5rrLdRQ%3D'`
+     
       ```sql
     IF NOT EXISTS  
     (SELECT * 
@@ -162,7 +159,7 @@ Now that the functionality is configured, you can generate a backup file as a bl
 
 ## Backup to URL
 
-1. Back up the database **AdventureWorks2017** to Azure with the following command in Transact-SQL.  select **New Query**, then paste and execute the following query:
+1. Back up the database **AdventureWorks2017** to Azure with the following command in Transact-SQL.  select **New Query**, then paste and select **Execute** for the following query:
 
     ```sql
     BACKUP DATABASE AdventureWorks2017   
@@ -184,7 +181,7 @@ Now that the functionality is configured, you can generate a backup file as a bl
 
 To see that the file is actually in Azure, you can use Storage Explorer or Azure Cloud Shell.
 
-1. Navigate back to [https://portal.azure.com](https://portal.azure.com/). If not connected then connect to the Portal using the Azure **Username** and **Password** provided on the **Environment Details** tab for this lab virtual machine.
+1. Navigate back to **Azure Portal** page. If not connected then connect to the Portal using the Azure **Username** and **Password** provided on the **Environment Details** tab for this lab virtual machine.
 
 1. Re-open the bash shell window and run this Azure CLI command:
 
@@ -200,7 +197,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
 
 ## Validate the backup through Storage Explorer
 
-1. To use the Storage Explorer (preview), from the home page in the Azure portal select **Storage accounts**.
+1. To use the Storage Explorer, from the home page in the Azure portal select **Storage accounts**.
 
     ![Screenshot showing selecting a storage account.](../images/upd-dp-300-module-15-lab-11.png)
 
@@ -208,7 +205,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
 
    ![Screenshot showing selecting a storage account.](../images/upd-dp-300-module-15.png)
 
-1. In the left navigation, select **Storage browser (preview) (1)**. Expand **Blob containers (2)**.
+1. In the left navigation, select **Storage browser (1)**. Select **Blob containers (2)**.
 
     ![Screenshot showing the backed up file in the storage account.](../images/dp300-lab15-backupcontainer.png)
 
@@ -230,7 +227,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
 
 This task will show you how to restore a database from an Azure blob storage.
 
-1. Navigate back to **SQL Server Management Studio (SSMS)**,  select **New Query**, then paste and execute the following query.
+1. Navigate back to **SQL Server Management Studio (SSMS)**,  select **New Query**, then paste and, select **Execute** for the following query.
 
     ```sql
     USE AdventureWorks2017;
@@ -241,7 +238,7 @@ This task will show you how to restore a database from an Azure blob storage.
 
     ![Screenshot showing the customer name before the update was executed.](../images/upd-dp-300-module-15-lab-21.png)
 
-1. Run this command to change the name of that customer. select **New Query**, then paste and execute the following query
+1. Run this command to change the name of that customer. select **New Query**, then paste and, select **Execute** for the following query.
 
     ```sql
     UPDATE Person.Address
@@ -254,7 +251,7 @@ This task will show you how to restore a database from an Azure blob storage.
 
     ![Screenshot showing the customer name after the update was executed.](../images/upd-dp-300-module-15-lab-15.png)
 
-1. To restore the database to get it back to where it was before the customer name was mistakenly changed, select **New Query**, then paste and execute the following query.
+1. To restore the database to get it back to where it was before the customer name was mistakenly changed, select **New Query**, then paste and, select **Execute** for the following query.
 
    > **Note:** **SET SINGLE_USER WITH ROLLBACK IMMEDIATE** syntax the open transactions will all be rolled back. This can prevent the restore failing due to active connections.
 
