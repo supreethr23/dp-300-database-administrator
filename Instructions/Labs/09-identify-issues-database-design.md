@@ -47,7 +47,7 @@ You have been hired as a database administrator to identify performance related 
    
 ## Examine the query and identify the problem
 
-1. Select **New Query**. Copy and paste the following T-SQL code into the query window. Select **Execute** to execute this query.
+1. Select **New Query**. Copy and paste the following T-SQL code into the query window.
 
     ```sql
     USE AdventureWorks2017
