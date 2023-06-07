@@ -19,8 +19,6 @@ You have been hired as a Senior Database Administrator to help automate day to d
 1. On the review page, select **Create**.
 
     ![Screenshot of the Add Automation Account screen.](../images/dp300-lab13-img2.png)
-
-    >**Note:** Your automation account should be created in around three minutes.
     
 ## Connect to an existing Azure SQL Database
 
@@ -36,12 +34,12 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
     ![Screenshot of selecting the Query editor (preview).](../images/dp300-lab13-img3.png)
 
-1. You will be prompted for credentials to sign in to your database. Use this credential:
+1. You will be prompted for credentials to sign in to your database. Use this credential, and click on **OK**:
 
     - **Login:** sqladmin
     - **Password:** P@ssw0rd01
 
-1. If You receive the following error message:
+1. If You receive the following error message, follow these steps otherwise, start performing the steps from step-8:
 
     ![Screenshot of the sign in error.](../images/errorupdated01.png)
 
@@ -51,11 +49,11 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
 1. Return to the Query editor, and select **OK** to sign in to your database.
 
-1.  Click on **Open query**, On the  **Open sql query**  select the file location C:\LabFiles\Monitorandoptimize and select **usp_AdaptiveIndexDefrag.sql** and click on Open.
+1.  Click on **Open query**, On the  **Open sql query**  select the file location **C:\LabFiles\Monitorandoptimize** and select **usp_AdaptiveIndexDefrag.sql** and click on **Open**, then select **OK**.
 
     > **Note:** The purpose of this script is to perform an intelligent defragmentation on one or more indexes, as well as required statistics update, for one or more databases.
 
-1. Delete **ï» (1)**,**`USE msdb` and `GO` (2)** on lines 5 and 6 of the query (that are highlighted in the screenshot) , and then select **Run (3)**.
+1. Delete **ï»¿ (1)**,**`USE msdb` and `GO` (2)** on lines 5 and 6 of the query (that are highlighted in the screenshot) , and then select **Run (3)**.
 
       ![Screenshot of pasting the code in a new Query window.](../images/query-editor1.png)
 
@@ -136,7 +134,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of creating a runbook.](../images/dp-300-27.png)
 
-1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name (1)** <inject key="sqlServerFqdn"></inject> . Select **Save (2)**, and then select **Publish (3)**.
+1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name (1)** <inject key="sqlServerFqdn"></inject> . Select **Save (2)**, and then select **Publish (3)**, and then select **Yes**..
 
     >**Note:** Please verify that the code has been copied correctly, before saving the runbook.
 
@@ -174,11 +172,9 @@ Next you will schedule the runbook to execute on a regular basis.
 
 1. Give the name **IndexMaintenanceSchedule**. 
 
-1. Specify the start time of **4:00AM** of the following day and in the **Pacific Time** time zone. Configure the reoccurrence for every **1** days. Do not set an expiration.
+1. Specify the start time of **4:00AM** of the following day and in the **United States - Pacific Time** time zone. Configure the reoccurrence for every **1** days. Do not set an expiration, select **Create**.
 
     ![Screenshot of the New Schedule pop out completed with example information.](../images/L13T5S5old.png)
-
-1. Select **Create**.
 
 1. The schedule is now created **(1)** and linked to the runbook. Select **OK (2)**.
 
