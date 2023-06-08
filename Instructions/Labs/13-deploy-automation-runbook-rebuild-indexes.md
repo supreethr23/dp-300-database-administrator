@@ -130,7 +130,7 @@ The next steps consist of configuring the assets required in preparation for the
 
 1. Enter the runbook name as **IndexMaintenance (1)** and a runbook type of **PowerShell (2)**. Select the latest runtime version available **(3)**, then select **Create (4)**.
 
-    ![Screenshot of creating a runbook.](../images/dp-300-27.png)
+    ![Screenshot of creating a runbook.](../images/dp-30027.png)
 
 1. Once the runbook has been created, copy and paste the Powershell code snippet below into your runbook editor. On the first line of the script paste in the **server name (1)** <inject key="sqlServerFqdn"></inject> . Select **Save (2)**, and then select **Publish (3)**, and then select **Yes**..
 
