@@ -85,7 +85,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of selecting Select.](../images/dp-300-17.png)
 
-1. On the **Add a module** page, select the **latest runtime version available** **(1)**, then select **Import (2)**. This will import the PowerShell module into your Automation account.
+1. On the **Add a module** page, under **runtime version** select the latest runtime version available **(1)**, then select **Import (2)**. This will import the PowerShell module into your Automation account.
 
 1. You'll need to create a credential to securely sign in to your database. From the blade for the Automation Account navigate to the **Shared Resources** section and select **Credentials**.
 
