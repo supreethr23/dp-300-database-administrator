@@ -53,7 +53,7 @@ You have been hired as a Senior Database Administrator to help automate day to d
 
     > **Note:** The purpose of this script is to perform an intelligent defragmentation on one or more indexes, as well as required statistics update, for one or more databases.
 
-1. Delete **ï»¿ (1)**,**`USE msdb` and `GO` (2)** on lines 5 and 6 of the query (that are highlighted in the screenshot) , and then select **Run (3)**.
+1. Delete **ï»¿ (1)**,**`USE msdb` and `GO` (2)** on lines 1, 5 and 6 of the query (that are highlighted in the screenshot) , and then select **Run (3)**.
 
       ![Screenshot of pasting the code in a new Query window.](../images/query-editor1.png)
 
@@ -112,7 +112,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of selecting the AdventureWorks SQL database.](../images/dp-300-22.png)
 
-1. On the **Overview** page copy the **Server name** of your Azure SQL Database as shown below (Your server name should start with *dp300-lab*). You'll paste this in later steps.
+1. On the **Overview** page check the **Server name** of your Azure SQL Database as your server name should start with **dp300-lab**.
 
     ![Screenshot of copying the server name.](../images/dp300-lab13-img5.png)
 
