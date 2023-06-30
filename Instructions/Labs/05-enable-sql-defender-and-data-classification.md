@@ -1,10 +1,10 @@
-# Enable Microsoft Defender for SQL and Data Classification
+# Lab05: Enable Microsoft Defender for SQL and Data Classification
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
 You have been hired as a Senior Database Administrator help ensure the security of the database environment. These tasks will focus on Azure SQL Database.
 
-## Enable Microsoft Defender for SQL
+## Task 1 - Enable Microsoft Defender for SQL
 
 1. From the Azure Portal, search for “SQL servers” in the search box at the top, then click on **SQL servers** from the list of options.
 
@@ -37,9 +37,7 @@ You have been hired as a Senior Database Administrator help ensure the security 
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-
-
-## Enable Data Classification
+## Task 2 - Enable Data Classification
 
 1. From the main blade of your Azure SQL server, navigate to the **Settings** section, and select **SQL databases (1)**, and then select the database name **(2)**.
 
