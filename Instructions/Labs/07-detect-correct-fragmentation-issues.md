@@ -1,5 +1,5 @@
 
-# Detect and correct fragmentation issues
+# Lab07: Detect and correct fragmentation issues
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to identify fragmentation within the database as well as learn steps to resolve it appropriately.
 
@@ -7,7 +7,7 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Restore a database
+## Task 1 - Restore a database
    
 1.  Double click on icon SSMS on your labvm. 
 
@@ -44,7 +44,7 @@ You have been hired as a database administrator to identify performance related 
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Investigate index fragmentation
+## Task 2 - Investigate index fragmentation
 
 1. Select **New Query**. Copy and paste the following T-SQL code into the query window. Select **Execute** to execute this query.
 
@@ -130,7 +130,7 @@ You have been hired as a database administrator to identify performance related 
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 
- ## Rebuild fragmented indexes
+ ## Task 3 - Rebuild fragmented indexes
 
 1. Copy and paste the following T-SQL code into the query window. Select **Execute** to execute this query.
 
