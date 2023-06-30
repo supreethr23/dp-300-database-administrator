@@ -1,8 +1,8 @@
-# Create a CPU status alert for a SQL Server on Azure
+# Lab12: Create a CPU status alert for a SQL Server on Azure
 
 You have been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria.
 
-## Create an alert when a CPU exceeds an average of 80 percent
+## Task 1 - Create an alert when a CPU exceeds an average of 80 percent
 
 1. In the search bar at the top of the Azure portal, type **SQL database (1)** and select **SQL databases (2)**. 
 
