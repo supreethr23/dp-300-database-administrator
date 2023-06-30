@@ -1,4 +1,4 @@
-# Provision an Azure SQL Database
+# Lab-02: Provision an Azure SQL Database
 
 Students will configure basic resources needed to deploy an Azure SQL Database with a Virtual Network Endpoint. Connectivity to the SQL Database will be validated using Azure Data Studio from the lab VM.
 
