@@ -1,4 +1,4 @@
-# Configure database authentication and authorization
+# Lab03: Configure database authentication and authorization
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the *AdventureWorks* database.
 
