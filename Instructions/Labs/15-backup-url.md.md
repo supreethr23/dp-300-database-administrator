@@ -1,8 +1,8 @@
-# Backup to URL  
+# Lab15: Backup to URL  
 
 As a DBA for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
 
-## Restore a database
+## Task 1 - Restore a database
 
 1. Open File explorer and verify that the database backup file is present under **C:\LabFiles\HADR** path on the lab virtual machine.
 
@@ -38,7 +38,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
     ![Picture 03](../images/updt-dp-300-module-07-lab-05.png)
 
-## Configure Backup to URL
+## Task 2 - Configure Backup to URL
 
 1. Open **Azure Portal**, if you are not logged in previously to the **Azure Portal**, please log in with these credentials **Username** <inject key="AzureAdUserEmail"></inject> and **Password**  <inject key="AzureAdUserPassword"></inject>
 
@@ -118,7 +118,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
     ![Screenshot of the shared access signature key.](../images/upd-dp-300-module-15-lab-09.png)
 
-## Create credential
+## Task 3 - Create credential
 
 Now that the functionality is configured, you can generate a backup file as a blob in Azure Storage Account.
 
@@ -157,7 +157,7 @@ Now that the functionality is configured, you can generate a backup file as a bl
     DROP CREDENTIAL [https://<storage_account_name>.blob.core.windows.net/backups]  
     ```
 
-## Backup to URL
+## Task 4 - Backup to URL
 
 1. Back up the database **AdventureWorks2017** to Azure with the following command in Transact-SQL.  select **New Query**, then paste and select **Execute** for the following query:
 
@@ -177,7 +177,7 @@ Now that the functionality is configured, you can generate a backup file as a bl
 
     If an error occurs, check that you did not mistype anything during the credential creation, and that everything was created successfully.
 
-## Validate the backup through Azure CLI
+## Task 5 - Validate the backup through Azure CLI
 
 To see that the file is actually in Azure, you can use Storage Explorer or Azure Cloud Shell.
 
@@ -195,7 +195,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
 
     We can confirm the backup file was generated successfully.
 
-## Validate the backup through Storage Explorer
+## Task 6 - Validate the backup through Storage Explorer
 
 1. To use the Storage Explorer, from the home page in the Azure portal select **Storage accounts**.
 
@@ -223,7 +223,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Restore from URL
+## Task 6 - Restore from URL
 
 This task will show you how to restore a database from an Azure blob storage.
 
