@@ -1,4 +1,4 @@
-# Implement a Secure Environment
+# Lab04: Implement a Secure Environment
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
