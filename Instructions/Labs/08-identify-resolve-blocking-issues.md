@@ -1,5 +1,5 @@
 
-# Identify and resolve blocking issues
+# Lab08: Identify and resolve blocking issues
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to identify and resolve blocking issues appropriately.
 
@@ -7,11 +7,11 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Restore a database
+## Task 1 - Restore a database
 
-1.  Double click on icon SSMS on your labvm. 
+1. Double-click on the icon SSMS on your labvm. 
 
-       ![Picture 01](../images/ssms.png)
+   ![Picture 01](../images/ssms.png)
 
 1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
@@ -46,7 +46,7 @@ You have been hired as a database administrator to identify performance related 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 
-## Run blocked queries report
+## Task 2 - Run blocked queries report
 
 1. Select **New Query**. Copy and paste the following T-SQL code into the query window. Select **Execute** to execute this query.
 
@@ -178,7 +178,7 @@ You have been hired as a database administrator to identify performance related 
 
     ![Picture 08](../images/dp300-lab8-img12.png)
 
-## Enable Read Commit Snapshot isolation level
+## Task 3 - Enable Read Commit Snapshot isolation level
 
 1. Select **New Query** from SQL Server Management Studio. Copy and paste the following T-SQL code into the query window. Select the **Execute** button to execute this query.
 
