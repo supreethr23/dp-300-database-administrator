@@ -1,13 +1,13 @@
 
-# Identify database design issues
+# Lab09 - Identify database design issues
 
-The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to evaluate a database design for problems with normalization, data type selection and index design.
+The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to evaluate a database design for problems with normalization, data type selection, and index design.
 
 You have been hired as a database administrator to identify performance related issues and provide viable solutions to resolve any issues found. AdventureWorks has been selling bicycles and bicycle parts directly to consumers and distributors for over a decade. Your job is to identify issues in query performance and remedy them using techniques learned in this module.
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Restore a database
+## Task 1 - Restore a database
 
 1.  Double click on icon SSMS on your labvm. 
 
@@ -47,7 +47,7 @@ You have been hired as a database administrator to identify performance related 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
    
-## Examine the query and identify the problem
+## Task 2 - Examine the query and identify the problem
 
 1. Select **New Query**. Copy and paste the following T-SQL code into the query window.
 
@@ -68,9 +68,9 @@ You have been hired as a database administrator to identify performance related 
 
     ![Picture 02](../images/dp-300-lab-09-img7.png)
     
-## Identify ways to fix the warning message
+## Task 3 - Identify ways to fix the warning message
 
-1. The *[HumanResources].[Employee]* table structure is shown in the follow data definition language (DDL) statement. **Review the fields that are used in the previous SQL query against this DDL, paying attention to their types.**
+1. The *[HumanResources].[Employee]* table structure is shown in the following data definition language (DDL) statement. **Review the fields that are used in the previous SQL query against this DDL, paying attention to their types.**
 
     ```sql
     CREATE TABLE [HumanResources].[Employee](
@@ -111,7 +111,7 @@ You have been hired as a database administrator to identify performance related 
 
 There are two approaches we can implement to fix the implicit conversion warning. We will investigate each of them in the next steps.
 
-### Change the code
+### Task 4 - Change the code
 
 1. How would you change the code to resolve the implicit conversion? Change the code and rerun the query.
 
@@ -131,7 +131,7 @@ There are two approaches we can implement to fix the implicit conversion warning
 
     >**Note:** the warning message is now gone, and the query plan has improved. Changing the `WHERE` clause so that the value compared to the *NationalIDNumber* column matches the column's data type in the table, the optimizer was able to get rid of the implicit conversion.
 
-### Change the data type
+### Task 5 - Change the data type
 
 1. We can also fix the implicit conversion warning by changing the table structure.
 
