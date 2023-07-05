@@ -1,8 +1,8 @@
-# Deploy an Azure SQL Database from a template
+# Lab11: Deploy an Azure SQL Database from a template
 
 You've been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance and provide methods for alerting based on certain criteria. AdventureWorks uses SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
-## Explore Azure Resource Manager template
+## Task 1 - Explore Azure Resource Manager template
   
 1. In Microsoft Edge, open a new tab and navigate to the following path in a GitHub repository, which contains an ARM template to deploy a SQL Database resource
 

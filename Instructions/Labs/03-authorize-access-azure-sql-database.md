@@ -1,4 +1,4 @@
-# Configure database authentication and authorization
+# Lab03: Configure database authentication and authorization
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the *AdventureWorks* database.
 
@@ -6,7 +6,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Authorize access to Azure SQL Database with Azure Active Directory
+## Task 1 - Authorize access to Azure SQL Database with Azure Active Directory
  
 1. On the Azure portal home page select **All resources**.
 
@@ -53,7 +53,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 
-## Manage access to database objects
+## Task 2 - Manage access to database objects
 
 In this task you will manage access to the database and its objects. The first thing you will do is create two users in the *AdventureWorksLT* database.
 

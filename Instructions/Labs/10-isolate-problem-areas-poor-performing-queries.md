@@ -1,5 +1,5 @@
 
-# Isolate problem areas in poorly performing queries in a SQL Database
+# Lab10: Isolate problem areas in poorly performing queries in a SQL Database
 
 You've been hired as a Senior Database Administrator to help with performance issues currently happening when users query the *AdventureWorks2017* database. Your job is to identify issues in query performance and remedy them using techniques learned in this module.
 
@@ -7,7 +7,7 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Restore a database
+## Task 1 - Restore a database
 
 1.  Double click on icon SSMS on your labvm. 
 
@@ -45,7 +45,7 @@ You'll run queries with suboptimal performance, examine the query plans, and att
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-## Generate actual execution plan
+## Task 2 - Generate actual execution plan
 
 There are several ways to generate an execution plan in SQL Server Management Studio.
 
@@ -83,7 +83,7 @@ There are several ways to generate an execution plan in SQL Server Management St
 
     The query optimizer was able to locate an appropriate index to fetch the required records.
 
-## Resolve a suboptimal query plan
+## Task 3 - Resolve a suboptimal query plan
 
 1. Copy and paste the code below into a **New query window.**
 
@@ -140,7 +140,7 @@ There are several ways to generate an execution plan in SQL Server Management St
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Use Query Store to detect and handle regression
+## Task 4 - Use Query Store to detect and handle regression
 
 Next you'll run a workload to generate query statistics for query store, examine **Top Resource Consuming Queries** report to identify poor performance, and see how to force a better execution plan.
 
@@ -188,7 +188,7 @@ Next you'll run a workload to generate query statistics for query store, examine
 
 1. Navigate back to the query tab from **ExecuteRandomWorkload.sql** file, and re-execute it.
 
-## Examine Top Resource Consuming Queries report
+## Task 5 - Examine Top Resource Consuming Queries report
 
 1. In order to view the Query Store node you will need to refresh the AdventureWorks2017 database in SQL Server Management Studio. **Right click (1)** on database name and choose select **Refresh (2)**. You will then see the **Query Store (3)** node under the database.
 
@@ -214,7 +214,7 @@ Next you'll run a workload to generate query statistics for query store, examine
     
     > **Note:** If you don't see the **Bar chart** then **change the minimum number of query plans to 1 and perform the Next step.**
 
-## Force a better execution plan
+## Task 6 - Force a better execution plan
 
 1. Navigate to the plan summary portion of the report as shown below. You will note there are one or two execution plans with widely different durations.
 
@@ -232,7 +232,7 @@ Next you'll run a workload to generate query statistics for query store, examine
 
     - There can be times when the query optimizer can make a poor choice on which execution plan to use. When this happens you can force SQL server to use the plan you want when you know it performs better.
 
-## Use query hints to impact performance
+## Task 7 - Use query hints to impact performance
 
 Next you'll run a workload, change the query to use a parameter, apply a query hint to the query, and re-execute it.
 
@@ -277,7 +277,7 @@ Before continuing with the exercise close all the current query windows by selec
 
    - This query uses a constant in its `WHERE` clause, the optimizer sees each of these queries as unique and generates a different execution plan each time.
 
-## Change the query to use a variable and use a Query Hint
+## Task 8 - Change the query to use a variable and use a Query Hint
 
 1. Change the query to use a variable value for SalesPersonID.
 

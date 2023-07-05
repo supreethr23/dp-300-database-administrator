@@ -1,8 +1,8 @@
-# Configure geo replication for Azure SQL Database
+# Lab14: Configure geo replication for Azure SQL Database
 
 As a DBA within AdventureWorks, you need to enable geo-replication for Azure SQL Database, and ensure it is working properly. Additionally, you will manually fail it over to another region using the portal.
 
-## Enable geo-replication
+## Task 1 - Enable geo-replication
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
@@ -53,7 +53,7 @@ As a DBA within AdventureWorks, you need to enable geo-replication for Azure SQL
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Failover SQL Database to a secondary region
+## Task 2 - Failover SQL Database to a secondary region
 
 Now that the Azure SQL Database replica is created, you will perform a failover.
 
