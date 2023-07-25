@@ -64,7 +64,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
 1. Create a new storage account from the CLI using by executing the following command in Cloud Shell.
 
-    > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />** and RESOURCE_GROUP_NAME with **contoso-rg-<inject key="DeploymentID" enableCopy="false" />**.
+    > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and RESOURCE_GROUP_NAME with **contoso-rg-<inject key="DeploymentID" enableCopy="false" />**.
 
     ```bash
     az storage account create -n "BACKUP_STORAGE_NAME" -g "RESOURCE_GROUP_NAME" --kind StorageV2 -l eastus2
@@ -74,7 +74,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
 1. Next you will get the keys for your storage account, which you will use in subsequent steps. Execute the following code in Cloud Shell: 
  
-   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />** and RESOURCE_GROUP_NAME with **contoso-rg-<inject key="DeploymentID" enableCopy="false" />**.
+   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and RESOURCE_GROUP_NAME with **contoso-rg-<inject key="DeploymentID" enableCopy="false" />**.
    
     ```bash
     az storage account keys list -g RESOURCE_GROUP_NAME -n BACKUP_STORAGE_NAME
@@ -86,7 +86,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
 
 1. Backing up a database in SQL Server to a URL uses container within a storage account. You will create a container specifically for backup storage in this step. To do this, execute the commands below.
 
-   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad in the previous step.
+   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad in the previous step.
 
     ```bash
     az storage container create --name "backups" --account-name "BACKUP_STORAGE_NAME" --account-key "STORAGE_KEY" --fail-on-exist
@@ -102,7 +102,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
     az storage container list --account-name "BACKUP_STORAGE_NAME" --account-key "STORAGE_KEY"
     ```
 
-   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad. The output should return something similar to below:
+   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad. The output should return something similar to below:
 
     ![Screenshot of the container list.](../images/upd-dp-300-module-15-lab-08.png)
 
@@ -112,7 +112,7 @@ As a DBA for AdventureWorks, you need to back up a database to a URL in Azure an
     az storage container generate-sas -n "backups" --account-name "BACKUP_STORAGE_NAME" --account-key "STORAGE_KEY" --permissions "rwdl" --expiry "2023-12-31T00:00Z" -o tsv
     ```
 
-   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad.
+   > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad.
 
     The output should return something similar to below. Copy the whole shared access signature and paste it in **Notepad**, it will be used in the next task.
 
@@ -126,7 +126,7 @@ Now that the functionality is configured, you can generate a backup file as a bl
 
 1. Create the credential that will be used to access storage in the cloud with the following Transact-SQL. Repalce the following values, then select **Execute**.
 
-   >**NOTE:** Replace **<storage_account_name>** with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />**. Replace the **key_value** with the **SAS** that you have copied in the notepad. the value generated at the end of the previous task in this format:
+   >**NOTE:** Replace **<storage_account_name>** with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />**. Replace the **key_value** with the **SAS** that you have copied in the notepad. the value generated at the end of the previous task in this format:
    `'se=2023-12-31T00%3A00Z&sp=rwdl&sv=2018-11-09&sr=csig=rnoGlveGql7ILhziyKYUPBq5ltGc/pzqOCNX5rrLdRQ%3D'`
      
       ```sql
@@ -167,7 +167,7 @@ Now that the functionality is configured, you can generate a backup file as a bl
     GO 
     ```
 
-    > **Note:** Replace <storage_account_name> with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />**. The output should return something similar to below.
+    > **Note:** Replace <storage_account_name> with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />**. The output should return something similar to below.
 
     ![Screenshot of the backup error.](../images/upd-dp-300-module-15-lab-18.png)
 
@@ -189,7 +189,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
     az storage blob list -c "backups" --account-name "BACKUP_STORAGE_NAME" --account-key "KEY1" --output table
     ```
 
-    > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />** and KEY1 with the value of **key1** that you have copied in the notepad.
+    > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and KEY1 with the value of **key1** that you have copied in the notepad.
 
     ![Screenshot of the backup in the container.](../images/upd-dp-300-module-15-lab-19.png)
 
@@ -270,7 +270,7 @@ This task will show you how to restore a database from an Azure blob storage.
     GO
     ```
 
-    > **NOTE:** Replace <storage_account_name> with **dp300backupstorage<inject key="DeploymentID" enableCopy="false" />**.
+    > **NOTE:** Replace <storage_account_name> with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />**.
 
      The output should be similar to this:
 
