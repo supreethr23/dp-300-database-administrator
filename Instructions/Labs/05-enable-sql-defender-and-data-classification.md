@@ -16,6 +16,12 @@ You have been hired as a Senior Database Administrator help ensure the security 
 
 1. From the main blade of your Azure SQL server, navigate to the **Security** section, and select **Microsoft Defender for Cloud**.
 
+1. On the **Microsoft Defender for Cloud (1)** page, select **Upgrade**, then navigate to the Install Agents blade and select **Install Agent**.
+
+   ![Screenshot of selecting the Microsoft Defender for Cloud option](../images/Dp-300-lab5-10.png)
+
+   ![Screenshot of selecting the Microsoft Defender for Cloud option](../images/Dp-300-lab5-9.png)
+
 1. On the **Microsoft Defender for Cloud (1)** page, select **Enable Microsoft Defender for SQL (2)**.
 
     ![Screenshot of selecting the Microsoft Defender for Cloud option](../images/dp-300-lab5-3.png)   
