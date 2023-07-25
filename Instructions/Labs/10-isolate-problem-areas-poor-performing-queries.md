@@ -11,17 +11,17 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 1.  Double click on icon SSMS on your labvm. 
 
-       ![Picture 01](../images/ssms.png)
+    ![Picture 01](../images/ssms.png)
 
 1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
    > **NOTE:** If the default instance name is blank, you can type the name **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
-     ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
+   ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
     
 1. Select the **Databases (1)** folder, and then **New Query (2)**.
 
-     ![Picture 03](../images/dp-300-lab10-sql2.png)
+   ![Picture 03](../images/dp-300-lab10-sql2.png)
 
 1. In the **New query** window, copy and paste the below T-SQL into it. Execute the query to restore the database.
 
@@ -37,7 +37,7 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 1. You should see a successful message after the restore is complete.
 
-     ![Picture 03](../images/upd-dp-300-module-07-lab-05.png)
+   ![Picture 03](../images/upd-dp-300-module-07-lab-05.png)
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -133,12 +133,6 @@ There are several ways to generate an execution plan in SQL Server Management St
 1. **Rerun** the query from step 1 under **Generate actual execution plan** and then **rerun previous step again**. Make note of the changes to the logical reads and execution plan changes. The plan now only needs to use the nonclustered index we created.
 
       ![Screenshot showing the improved execution plan](../images/upd-dp-300-module-10-lab-05.png)
-      
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 ## Task 4 - Use Query Store to detect and handle regression
 
@@ -323,3 +317,9 @@ Before continuing with the exercise close all the current query windows by selec
     Comparing the statistics, you can see in the message tab that the difference between logical reads is **68%** more (689 versus 409) for the query without the query hint.
 
 In this exercise, you've learned how to identify query problems, and how to fix it to improve the query plan.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.
+> - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
