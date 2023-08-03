@@ -1,6 +1,6 @@
 # Lab15: Backup to URL  
 
-As a DBA for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
+As a Database Administrator for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
 
 ## Task 1 - Restore a database
 
