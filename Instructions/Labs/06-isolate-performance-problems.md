@@ -81,7 +81,7 @@ You have been hired as a database administrator to identify performance related 
 
     ![Screenshot showing average aggregation](../images/dp-300-lab-06-img13.png)
 
-## Identify high CPU queries
+## Task 2 -Identify high CPU queries
 
 1. Locate the **Query Performance Insight** icon on the **Intelligent Performance** section of the blade for the **AdventureWorksLT** database.
 
