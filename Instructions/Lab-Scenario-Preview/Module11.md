@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300: Plan and implement data platform resources
 
 ## Lab11: Deploy an Azure SQL Database from a template
 

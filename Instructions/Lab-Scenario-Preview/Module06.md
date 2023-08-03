@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300: Monitor and optimize operational resources in Azure SQL
 
 ## Lab06: Isolate performance problems through monitoring
 

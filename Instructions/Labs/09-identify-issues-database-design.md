@@ -1,5 +1,4 @@
-
-# Lab09 - Identify database design issues
+# Lab09: Identify database design issues
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to evaluate a database design for problems with normalization, data type selection, and index design.
 

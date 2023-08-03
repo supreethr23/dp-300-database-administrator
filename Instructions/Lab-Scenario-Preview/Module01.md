@@ -1,6 +1,6 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300:  Introduction to Azure database administration
 
-## Lab-01: Provision a SQL Server on an Azure Virtual Machine 
+## Lab01: Provision a SQL Server on an Azure Virtual Machine 
 
 ### Lab overview
 

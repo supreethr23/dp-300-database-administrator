@@ -1,6 +1,6 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300: Plan and implement data platform resources
 
-## Lab-02: Provision an Azure SQL Database
+## Lab02: Provision an Azure SQL Database
 
 ### Lab overview
 

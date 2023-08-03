@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300: Automate database tasks for Azure SQL 
 
 ## Lab13: Deploy an automation runbook to automatically rebuild indexes
 

@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300:  Optimize query performance in Azure SQL 
 
 ## Lab10: Isolate problem areas in poorly performing queries in a SQL Database 
 

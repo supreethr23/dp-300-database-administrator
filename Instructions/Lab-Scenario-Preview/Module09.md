@@ -1,6 +1,6 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300:  Optimize query performance in Azure SQL 
 
-## Lab09 - Identify database design issues
+## Lab09: Identify database design issues
 
 ### Lab overview
 

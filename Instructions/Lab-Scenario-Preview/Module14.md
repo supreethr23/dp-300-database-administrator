@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300: Plan and implement a high availability and disaster recovery environment 
 
 ## Lab14: Configure geo replication for Azure SQL Database
 

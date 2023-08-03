@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300:Implement a secure environment for a database service 
 
 ## Lab03: Configure database authentication and authorization
 

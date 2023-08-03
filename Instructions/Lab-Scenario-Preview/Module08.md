@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: DP-300:  Optimize query performance in Azure SQL 
 
 ## Lab08: Identify and resolve blocking issues
 
