@@ -36,7 +36,6 @@ You have been hired as a database administrator to identify performance related 
 
     ![Screenshot showing selecting AdventureWorks](../images/dp-300-lab-06-img8.png)
    
-
 1. In **Password**, type **P@ssw0rd01** and select **OK**.
 
      ![Screenshot showing selecting AdventureWorks](../images/dp-300-lab-06-img9.png)
