@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300: Monitor and optimize operational resources in Azure SQL
+# Lab Scenario Preview: Lab12: Create a CPU status alert for a SQL Server on Azure
 
-## Lab12: Create a CPU status alert for a SQL Server on Azure
-
-### Lab overview
+## Lab overview
 
 You have been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria.
 

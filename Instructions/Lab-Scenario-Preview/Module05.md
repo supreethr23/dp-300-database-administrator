@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300:Implement a secure environment for a database service 
+# Lab Scenario Preview: Lab05: Enable Microsoft Defender for SQL and Data Classification
 
-## Lab05: Enable Microsoft Defender for SQL and Data Classification
-
-### Lab overview
+## Lab overview
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 

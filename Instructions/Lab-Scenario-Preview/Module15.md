@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300: Plan and implement a high availability and disaster recovery environment 
+# Lab Scenario Preview: Lab15: Backup to URL
 
-## Lab15: Backup to URL
-
-### Lab overview
+## Lab overview
 
 As a Database Administrator for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
 

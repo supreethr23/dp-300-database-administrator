@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300: Automate database tasks for Azure SQL 
+# Lab Scenario Preview: Lab13: Deploy an automation runbook to automatically rebuild indexes
 
-## Lab13: Deploy an automation runbook to automatically rebuild indexes
-
-### Lab overview
+## Lab overview
 
 You have been hired as a Senior Database Administrator to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria. AdventureWorks utilizes SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 

@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300: Plan and implement a high availability and disaster recovery environment 
+# Lab Scenario Preview: Lab14: Configure geo replication for Azure SQL Database
 
-## Lab14: Configure geo replication for Azure SQL Database
-
-### Lab overview
+## Lab overview
 
 As a Database Administrator within AdventureWorks, you need to enable geo-replication for Azure SQL Database, and ensure it is working properly. Additionally, you will manually fail it over to another region using the portal.
 

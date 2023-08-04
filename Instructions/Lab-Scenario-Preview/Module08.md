@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300:  Optimize query performance in Azure SQL 
+# Lab Scenario Preview: Lab08: Identify and resolve blocking issues 
 
-## Lab08: Identify and resolve blocking issues
-
-### Lab overview
+## Lab overview
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to identify and resolve blocking issues appropriately.
 

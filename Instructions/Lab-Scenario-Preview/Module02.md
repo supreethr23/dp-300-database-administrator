@@ -1,8 +1,6 @@
-# Lab Scenario Preview: DP-300: Plan and implement data platform resources
+# Lab Scenario Preview: Lab02: Provision an Azure SQL Database
 
-## Lab02: Provision an Azure SQL Database
-
-### Lab overview
+## Lab overview
 
 Students will configure basic resources needed to deploy an Azure SQL Database with a Virtual Network Endpoint. Connectivity to the SQL Database will be validated using Azure Data Studio from the lab VM.
 
