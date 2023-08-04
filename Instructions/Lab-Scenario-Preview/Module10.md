@@ -17,6 +17,7 @@ After completing this lab, you will be able to:
 - Examine Top Resource Consuming Queries report
 - Force a better execution plan
 - Use query hints to impact performance
+- Change the query to use a variable and use a Query Hint
 
 ## Architecture Diagram
 
