@@ -33,8 +33,8 @@ You have been hired as a database administrator to identify performance related 
           MOVE 'AdventureWorks2017_log'
             TO 'C:\LabFiles\Monitorandoptimize\AdventureWorks2017_log.ldf';
     ```
-
-1. You should see a successful message after the restore is complete.
+    
+ 1. You should see a successful message after the restore is complete.
 
     ![Picture 03](../images/dp-300-lab-09-img5.png)
     
