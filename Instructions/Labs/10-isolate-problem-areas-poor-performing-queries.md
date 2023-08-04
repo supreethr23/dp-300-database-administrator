@@ -1,4 +1,3 @@
-
 # Lab10: Isolate problem areas in poorly performing queries in a SQL Database
 
 You've been hired as a Senior Database Administrator to help with performance issues currently happening when users query the *AdventureWorks2017* database. Your job is to identify issues in query performance and remedy them using techniques learned in this module.

@@ -1,4 +1,3 @@
-
 # Lab06: Isolate performance problems through monitoring
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize tools to identify and resolve performance related issues.
@@ -81,7 +80,7 @@ You have been hired as a database administrator to identify performance related 
 
     ![Screenshot showing average aggregation](../images/dp-300-lab-06-img13.png)
 
-## Identify high CPU queries
+## Task 2 -Identify high CPU queries
 
 1. Locate the **Query Performance Insight** icon on the **Intelligent Performance** section of the blade for the **AdventureWorksLT** database.
 

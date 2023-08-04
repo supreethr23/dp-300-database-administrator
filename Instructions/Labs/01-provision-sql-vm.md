@@ -1,4 +1,4 @@
-# Lab-01: Provision a SQL Server on an Azure Virtual Machine
+# Lab01: Provision a SQL Server on an Azure Virtual Machine
 
 Students will explore the Azure Portal and use it to create an Azure VM with SQL Server 2019 installed. Then they will connect to the virtual machine through Remote Desktop Protocol.
 
