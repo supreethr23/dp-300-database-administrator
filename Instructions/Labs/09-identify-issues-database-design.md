@@ -12,17 +12,17 @@ You have been hired as a database administrator to identify performance related 
 
    ![Picture 01](../images/ssms.png)
 
-1. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
+2. When SSMS opens, notice that the **Connect to Server** dialog will be pre-populated with the default instance name with **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
    > **NOTE:** If the default instance name is blank, you can type the name **sqlvm-<inject key="DeploymentID" enableCopy="false" /> (1)**. Select **Connect (2)**.
 
    ![Picture 02](../images/upd-dp-300-module-07-lab-01.png)
     
-1. Select the **Databases** folder, and then **New Query**.
+3. Select the **Databases** folder, and then **New Query**.
 
     ![Picture 03](../images/dp300-lab9-img04.png)
 
-1. In the **New query** window, copy and paste the below T-SQL into it. Execute the query to restore the database.
+4. In the **New query** window, copy and paste the below T-SQL into it. Execute the query to restore the database.
 
     ```sql
     RESTORE DATABASE AdventureWorks2017
@@ -34,7 +34,7 @@ You have been hired as a database administrator to identify performance related 
             TO 'C:\LabFiles\Monitorandoptimize\AdventureWorks2017_log.ldf';
     ```
     
- 1. You should see a successful message after the restore is complete.
+ 5. You should see a successful message after the restore is complete.
 
     ![Picture 03](../images/dp-300-lab-09-img5.png)
     
