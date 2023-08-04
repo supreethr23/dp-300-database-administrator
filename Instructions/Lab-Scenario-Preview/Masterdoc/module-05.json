@@ -1,0 +1,12 @@
+[
+    {
+    "Name": "Lab 5: Enable Microsoft Defender for SQL and Data Classification ",
+    "Language": "English",
+    "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/dp-300-database-administrator/Prod/Instructions/Lab-Scenario-Preview/Module05.md",
+          "Order": 1
+        }
+      ]
+    } 
+]

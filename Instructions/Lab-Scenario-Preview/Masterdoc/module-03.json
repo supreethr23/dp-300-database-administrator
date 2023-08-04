@@ -1,0 +1,12 @@
+[
+    {
+    "Name": "Lab 3: Configure database authentication and authorization",
+    "Language": "English",
+    "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/dp-300-database-administrator/Prod/Instructions/Lab-Scenario-Preview/Module03.md",
+          "Order": 1
+        }
+      ]
+    } 
+]
