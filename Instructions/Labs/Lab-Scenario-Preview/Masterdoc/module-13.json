@@ -1,0 +1,12 @@
+[
+    {
+    "Name": "Lab 13: Deploy an automation runbook to automatically rebuild indexes ",
+    "Language": "English",
+    "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/dp-300-database-administrator/Prod/Instructions/Labs/Lab-Scenario-Preview/Module13.md",
+          "Order": 1
+        }
+      ]
+    } 
+]
