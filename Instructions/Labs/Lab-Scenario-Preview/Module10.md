@@ -11,13 +11,7 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 After completing this lab, you will be able to:
 
 - Restore a database
-- Generate actual execution plan
-- Resolve a suboptimal query plan
-- Use Query Store to detect and handle regression
-- Examine Top Resource Consuming Queries report
-- Force a better execution plan
-- Use query hints to impact performance
-- Change the query to use a variable and use a Query Hint
+- Identifying Query Performance Issues
 
 ## Architecture Diagram
 
