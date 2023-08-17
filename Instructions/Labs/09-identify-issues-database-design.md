@@ -6,6 +6,22 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Restore a database
++ Task 2: Examine the query and identify the problem
++ Task 3: Identify ways to fix the warning message
++ Task 4: Change the code
++ Task 5: Change the data type
+
+## Estimated timing: 15 minutes
+
+## Architecture diagram
+
+![](./images/preview01.png)
+
 ## Task 1 - Restore a database
 
 1. Double-click on the icon SSMS on your labvm. 
@@ -198,5 +214,8 @@ There are two approaches we can implement to fix the implicit conversion warning
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-
+### Review
 In this exercise, you've learned how to identify query problems caused by implicit data type conversions, and how to fix it to improve the query plan.
+
+## You have successfully completed the lab
+
