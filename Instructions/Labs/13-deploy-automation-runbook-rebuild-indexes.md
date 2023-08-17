@@ -202,7 +202,13 @@ Next you will schedule the runbook to execute on a regular basis.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-### Review
 By completing this exercise you've automated the defragging of indexes on a SQL server database to run every day, at 4am.
+
+### Review
+- Create an Automation Account
+- Connect to an existing Azure SQL Database
+- Configure Automation Account assets
+- Create a PowerShell runbook
+- Create a schedule for a runbook
 
 ## You have successfully completed the lab
