@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](./images/preview03.png)
+![](../images/preview(03).png)
 
 ## Task 1 - Authorize access to Azure SQL Database with Azure Active Directory
  
