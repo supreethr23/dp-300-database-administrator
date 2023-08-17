@@ -6,6 +6,18 @@ You have been hired as a Senior Database Administrator to help ensure the securi
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
+## Objectives
+
+In this lab, you will complete the following task:
+
++ Task 1: Configure Azure SQL Database firewall rules
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](./images/preview04.png)
+
 ## Task 1 - Configure Azure SQL Database firewall rules
 
 1. From the Azure Portal, search for **SQL servers (1)** in the search box at the top, then click **SQL servers (2)** from the list of options.
@@ -124,4 +136,7 @@ You have been hired as a Senior Database Administrator to help ensure the securi
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+### Review
 In this exercise, you've configured server and database firewall rules to access a database hosted on Azure SQL Database. You've also used T-SQL statements to create a contained user, and used SQL Server Management Studio to check the access.
+
+## You have successfully completed the lab
