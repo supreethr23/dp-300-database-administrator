@@ -6,6 +6,20 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Restore a database
++ Task 2: Investigate index fragmentation
++ Task 3: Rebuild fragmented indexes
+
+## Estimated timing: 15 minutes
+
+## Architecture diagram
+
+![](./images/preview07.png)
+
 ## Task 1 - Restore a database
    
 1. Double-click on the icon SSMS on your labvm. 
@@ -186,4 +200,7 @@ You have been hired as a database administrator to identify performance related 
 
 Because the index has been rebuilt, it will now be as efficient as possible and the logical reads should reduce. You have now seen that index maintenance can have an effect on query performance.
 
+### Review
 In this exercise, you've learned how to rebuild index and analyze logical reads to increase query performance.
+
+## You have successfully completed the lab
