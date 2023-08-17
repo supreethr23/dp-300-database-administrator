@@ -136,7 +136,10 @@ In this lab, you will complete the following task:
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
 In this exercise, you've configured server and database firewall rules to access a database hosted on Azure SQL Database. You've also used T-SQL statements to create a contained user, and used SQL Server Management Studio to check the access.
+
+### Review
+In this lab, you have completed:
+- Configure Azure SQL Database firewall rules
 
 ## You have successfully completed the lab
