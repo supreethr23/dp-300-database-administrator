@@ -6,6 +6,19 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Authorize access to Azure SQL Database with Azure Active Directory
++ Task 2: Manage access to database objects
+
+## Estimated timing: 20 minutes
+
+## Architecture diagram
+
+![](./images/preview03.png)
+
 ## Task 1 - Authorize access to Azure SQL Database with Azure Active Directory
  
 1. On the Azure portal home page select **All resources**.
@@ -139,3 +152,11 @@ In this task you will manage access to the database and its objects. The first t
    ![Screenshot showing the returned rows of data from the stored procedure](../images/dp300-lab3-img14_new.png)
 
 In this exercise, you've seen how you can use Azure Active Directory to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
+
+### Review
+In this lab, you have completed:
+- Authorize access to Azure SQL Database with Azure Active Directory
+- Manage access to database objects
+
+## You have successfully completed the lab
+
