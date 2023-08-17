@@ -2,6 +2,25 @@
 
 As a Database Administrator for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Restore a database
++ Task 2: Configure Backup to URL
++ Task 3: Create credential
++ Task 4: Backup to URL
++ Task 5: Validate the backup through Azure CLI
++ Task 6: Validate the backup through Storage Explorer
++ Task 7: Restore from URL
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](./images/preview015.png)
+
+
 ## Task 1 - Restore a database
 
 1. Open File explorer and verify that the database backup file is present under **C:\LabFiles\HADR** path on the lab virtual machine.
@@ -223,7 +242,7 @@ To see that the file is actually in Azure, you can use Storage Explorer or Azure
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Task 6 - Restore from URL
+## Task 7 - Restore from URL
 
 This task will show you how to restore a database from an Azure blob storage.
 
@@ -283,3 +302,15 @@ This task will show you how to restore a database from an Azure blob storage.
 It is important to understand the components and the interaction to do a backup to or restore from the Azure Blob Storage service.
 
 You have now seen that you can back up a database to a URL in Azure and, if necessary, restore it.
+
+### Review
+In this lab, you have completed:
+- Restore a database
+- Configure Backup to URL
+- Create credential
+- Backup to URL
+- Validate the backup through Azure CLI
+- Validate the backup through Storage Explorer
+- Restore from URL
+  
+## You have successfully completed the lab
