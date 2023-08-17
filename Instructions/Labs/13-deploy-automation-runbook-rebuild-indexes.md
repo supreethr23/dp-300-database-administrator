@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](./images/preview013.png)
+![](../images/preview(13).png)
 
 ## Task 1 - Create an Automation Account
 
