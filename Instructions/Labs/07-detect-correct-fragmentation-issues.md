@@ -200,7 +200,12 @@ In this lab, you will complete the following tasks:
 
 Because the index has been rebuilt, it will now be as efficient as possible and the logical reads should reduce. You have now seen that index maintenance can have an effect on query performance.
 
-### Review
 In this exercise, you've learned how to rebuild index and analyze logical reads to increase query performance.
+
+### Review
+In this lab, you have completed:
+- Restore a database
+- Investigate index fragmentation
+- Rebuild fragmented indexes
 
 ## You have successfully completed the lab
