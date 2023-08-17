@@ -2,6 +2,19 @@
 
 You have been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria.
 
+
+## Objectives
+
+In this lab, you will complete the following task:
+
++ Task 1: Create an alert when a CPU exceeds an average of 80 percent
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](./images/preview012.png)
+
 ## Task 1 - Create an alert when a CPU exceeds an average of 80 percent
 
 1. In the search bar at the top of the Azure portal, type **SQL database (1)** and select **SQL databases (2)**. 
@@ -59,12 +72,16 @@ You have been hired as a Senior Data Engineer to help automate day to day operat
 
     ![Screenshot of the warning email](../images/dp300-lab12-img13.png)
     
-   
+    Alerts can send you an email or call a web hook when some metric (for example database size or CPU usage) reaches a threshold you define. You've just seen how you can easily configure alerts for Azure SQL Databases.
+
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-  
 
-Alerts can send you an email or call a web hook when some metric (for example database size or CPU usage) reaches a threshold you define. You've just seen how you can easily configure alerts for Azure SQL Databases.
+### Review
+In this lab, you have completed:
+- Create an alert when a CPU exceeds an average of 80 percent
+
+## You have successfully completed the lab
