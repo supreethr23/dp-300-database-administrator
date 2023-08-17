@@ -12,7 +12,7 @@ In this lab, you will complete the following task:
 
 ## Architecture diagram
 
-![](./images/preview011.png)
+![](../images/preview(11).png)
 
 ## Task 1 - Explore Azure Resource Manager template
   
