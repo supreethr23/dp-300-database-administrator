@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](./images/preview014.png)
+![](../images/preview(14).png)
 
 ## Task 1 - Enable geo-replication
 
