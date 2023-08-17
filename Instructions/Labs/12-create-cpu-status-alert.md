@@ -13,7 +13,7 @@ In this lab, you will complete the following task:
 
 ## Architecture diagram
 
-![](./images/preview012.png)
+![](../images/preview(12).png)
 
 ## Task 1 - Create an alert when a CPU exceeds an average of 80 percent
 
