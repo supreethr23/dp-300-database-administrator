@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](./images/preview02.png)
+![](../images/preview(02).png)
 
 ## Task 1 - Create a Virtual Network
 
