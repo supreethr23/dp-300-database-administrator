@@ -76,8 +76,12 @@ In this lab, you will complete the following tasks:
 
     ![Screenshot showing the Accept selected recommendations](../images/dp-300-lab5-8.png)
 
-### Review
 In this exercise, you've enhanced the security of an Azure SQL Database by enabling Microsoft Defender for SQL. You've also created classified columns based on Azure portal recommendations.
 
+### Review
+In this lab, you have completed:
+- Enable Microsoft Defender for SQL
+- Enable Data Classification
+  
 ## You have successfully completed the lab
 
