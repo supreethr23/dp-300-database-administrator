@@ -2,6 +2,18 @@
 
 You've been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance and provide methods for alerting based on certain criteria. AdventureWorks uses SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
+## Objectives
+
+In this lab, you will complete the following task:
+
++ Task 1: Explore Azure Resource Manager template
+
+## Estimated timing: 15 minutes
+
+## Architecture diagram
+
+![](./images/preview011.png)
+
 ## Task 1 - Explore Azure Resource Manager template
   
 1. In Microsoft Edge, open a new tab and navigate to the following path in a GitHub repository, which contains an ARM template to deploy a SQL Database resource
@@ -103,11 +115,19 @@ You've been hired as a Senior Data Engineer to help automate day to day operatio
 1. When deployment has completed, select **Go to resource group**. You'll be taken to your Azure Resource Group, which contains a randomly named **SQL Server** resource created by the deployment.
 
     ![Picture 3](../images/dp300-lab11-img3.png)
+   
+   You've just seen how, with a single click on an Azure Resource Manager template link, you can easily create both an Azure SQL server and database.
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    1. Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    2. Hit the Validate button for the corresponding task.
-    3. If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    4. If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 You've just seen how, with a single click on an Azure Resource Manager template link, you can easily create both an Azure SQL server and database.
+
+### Review
+In this lab, you have completed:
+- Explore Azure Resource Manager template
+
+## You have successfully completed the lab
