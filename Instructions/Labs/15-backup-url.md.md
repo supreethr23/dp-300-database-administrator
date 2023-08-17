@@ -18,8 +18,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](./images/preview015.png)
-
+![](../images/preview(15).png)
 
 ## Task 1 - Restore a database
 
