@@ -16,7 +16,7 @@ In this lab, you will complete the following task:
 
 ## Architecture diagram
 
-![](./images/preview04.png)
+![](../images/preview(04).png)
 
 ## Task 1 - Configure Azure SQL Database firewall rules
 
