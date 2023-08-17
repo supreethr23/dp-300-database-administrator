@@ -2,6 +2,19 @@
 
 As a Database Administrator within AdventureWorks, you need to enable geo-replication for Azure SQL Database, and ensure it is working properly. Additionally, you will manually fail it over to another region using the portal.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Enable geo-replication
++ Task 2: Failover SQL Database to a secondary region
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](../images/preview(14).png)
+
 ## Task 1 - Enable geo-replication
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
@@ -94,3 +107,10 @@ Now that the Azure SQL Database replica is created, you will perform a failover.
 We've seen the readable secondary database may be in the same Azure region as the primary, or, more commonly, in a different region. This kind of readable secondary databases are also known as geo-secondaries, or geo-replicas.
 
 You have now seen how to enable geo-replicas for Azure SQL Database, and manually fail it over to another region using the portal.
+
+### Review
+In this lab, you have completed:
+- Enable geo-replication
+- Failover SQL Database to a secondary region
+  
+## You have successfully completed the lab

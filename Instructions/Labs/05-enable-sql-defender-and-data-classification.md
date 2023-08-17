@@ -4,6 +4,19 @@ The students will take the information gained in the lessons to configure and su
 
 You have been hired as a Senior Database Administrator help ensure the security of the database environment. These tasks will focus on Azure SQL Database.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Enable Microsoft Defender for SQL
++ Task 2: Enable Data Classification
+
+## Estimated timing: 20 minutes
+
+## Architecture diagram
+
+![](../images/preview(05).png)
+
 ## Task 1 - Enable Microsoft Defender for SQL
 
 1. From the Azure Portal, search for “SQL servers” in the search box at the top, then click on **SQL servers** from the list of options.
@@ -64,3 +77,11 @@ You have been hired as a Senior Database Administrator help ensure the security 
     ![Screenshot showing the Accept selected recommendations](../images/dp-300-lab5-8.png)
 
 In this exercise, you've enhanced the security of an Azure SQL Database by enabling Microsoft Defender for SQL. You've also created classified columns based on Azure portal recommendations.
+
+### Review
+In this lab, you have completed:
+- Enable Microsoft Defender for SQL
+- Enable Data Classification
+  
+## You have successfully completed the lab
+

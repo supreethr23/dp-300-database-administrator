@@ -4,6 +4,19 @@ Students will explore the Azure Portal and use it to create an Azure VM with SQL
 
 You are a database administrator for AdventureWorks. You need to create a test environment for use in a proof of concept. The proof of concept will use SQL Server on an Azure Virtual Machine and a backup of the AdventureWorksDW database. You need to set up the Virtual Machine, restore the database, and query it to ensure it is available.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Deploy a SQL Server on an Azure Virtual Machine
++ Task 2: Connect to SQL Server on an Azure Virtual Machine
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](../images/preview(01).png)
+
 ### Task 1 - Deploy a SQL Server on an Azure Virtual Machine
 
 1. On the Azure portal locate the search bar at the top of the page. Search for **Azure SQL (1)**. Select the search result for **Azure SQL (2)** that appears in the results under **Services**.
@@ -100,3 +113,10 @@ You are a database administrator for AdventureWorks. You need to create a test e
     ![Picture 35](../images/dp-300-lab1-16.png)
 
 The Azure portal gives you powerful tools to manage a SQL Server hosted in a virtual machine. These tools include control over automated patching, automated backups, and giving you an easy way to setup high availability.
+
+### Review
+In this lab, you have completed:
+- Deploy a SQL Server on an Azure Virtual Machine
+- Connect to SQL Server on an Azure Virtual Machine
+
+## You have successfully completed the lab

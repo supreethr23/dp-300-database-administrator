@@ -4,6 +4,22 @@ Students will configure basic resources needed to deploy an Azure SQL Database w
 
 As a database administrator for AdventureWorks, you will set up a new SQL Database, including a Virtual Network Endpoint to increase and simplify the security of the deployment. Azure Data Studio will be used to evaluate the use of a SQL Notebook for data querying and results retention.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a Virtual Network
++ Task 2: Provision an Azure SQL Database
++ Task 3: Enable access to an Azure SQL Database
++ Task 4: Connect to an Azure SQL Database in Azure Data Studio
++ Task 5: Query an Azure SQL Database with a SQL Notebook
+
+## Estimated timing: 40 minutes
+
+## Architecture diagram
+
+![](../images/preview(02).png)
+
 ## Task 1 - Create a Virtual Network
 
 1. In the Azure portal home page, select the **left hand menu.**
@@ -241,3 +257,13 @@ As a database administrator for AdventureWorks, you will set up a new SQL Databa
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 In this exercise, you've seen how you deploy a Azure SQL Database with a Virtual Network Endpoint. You were also able to connect to the SQL Database you've created using SQL Server Management Studio.
+
+### Review
+In this lab, you have completed:
+- Create a Virtual Network
+- Provision an Azure SQL Database
+- Enable access to an Azure SQL Database
+- Connect to an Azure SQL Database in Azure Data Studio
+- Query an Azure SQL Database with a SQL Notebook
+  
+## You have successfully completed the lab

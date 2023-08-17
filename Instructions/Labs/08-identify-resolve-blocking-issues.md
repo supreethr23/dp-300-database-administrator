@@ -6,6 +6,20 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Restore a database
++ Task 2: Run blocked queries report
++ Task 2: Enable Read Commit Snapshot isolation level
+  
+## Estimated timing: 15 minutes
+
+## Architecture diagram
+
+![](../images/preview(08).png)
+
 ## Task 1 - Restore a database
 
 1. Double-click on the icon SSMS on your labvm. 
@@ -226,5 +240,13 @@ You have been hired as a database administrator to identify performance related 
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-
 In this exercise, you've learned how to identify sessions being blocked, and to mitigate those scenarios.
+
+### Review
+In this lab, you have completed:
+- Restore a database
+- Run blocked queries report
+- Enable Read Commit Snapshot isolation level
+  
+## You have successfully completed the lab
+

@@ -2,6 +2,22 @@
 
 You have been hired as a Senior Database Administrator to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria. AdventureWorks utilizes SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create an Automation Account
++ Task 2: Connect to an existing Azure SQL Database
++ Task 3: Configure Automation Account assets
++ Task 4: Create a PowerShell runbook
++ Task 5: Create a schedule for a runbook
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](../images/preview(13).png)
+
 ## Task 1 - Create an Automation Account
 
 1. In the Azure portal in the search bar type **automation (1)** and then select **Automation Accounts (2)** from the search results, and then select **+ Create**.
@@ -177,14 +193,22 @@ Next you will schedule the runbook to execute on a regular basis.
 1. The schedule is now created **(1)** and linked to the runbook. Select **OK (2)**.
 
     ![Screenshot of the created schedule.](../images/dp-300-333.png)
-    
+
+    Azure Automation delivers a cloud-based automation, and configuration service that supports consistent management across your Azure and non-Azure environments.
+   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-
-Azure Automation delivers a cloud-based automation, and configuration service that supports consistent management across your Azure and non-Azure environments.
-
 By completing this exercise you've automated the defragging of indexes on a SQL server database to run every day, at 4am.
+
+### Review
+- Create an Automation Account
+- Connect to an existing Azure SQL Database
+- Configure Automation Account assets
+- Create a PowerShell runbook
+- Create a schedule for a runbook
+
+## You have successfully completed the lab
