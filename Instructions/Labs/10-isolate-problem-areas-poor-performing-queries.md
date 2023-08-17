@@ -6,6 +6,25 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Restore a database
++ Task 2: Generate actual execution plan
++ Task 3: Resolve a suboptimal query plan
++ Task 4: Use Query Store to detect and handle regression
++ Task 5: Examine Top Resource Consuming Queries report
++ Task 6: Force a better execution plan
++ Task 7: Use query hints to impact performance
++ Task 8: Change the query to use a variable and use a Query Hint
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](./images/preview010.png)
+
 ## Task 1 - Restore a database
 
 1.  Double click on icon SSMS on your labvm. 
@@ -315,10 +334,13 @@ Before continuing with the exercise close all the current query windows by selec
 
     Comparing the statistics, you can see in the message tab that the difference between logical reads is **68%** more (689 versus 409) for the query without the query hint.
 
-In this exercise, you've learned how to identify query problems, and how to fix it to improve the query plan.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
 > - Hit the Validate button for the corresponding task.
 > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+### Review
+In this exercise, you've learned how to identify query problems, and how to fix it to improve the query plan.
+
+## You have successfully completed the lab
