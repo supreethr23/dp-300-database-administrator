@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 + Task 4: Change the code
 + Task 5: Change the data type
 
-## Estimated timing: 15 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
