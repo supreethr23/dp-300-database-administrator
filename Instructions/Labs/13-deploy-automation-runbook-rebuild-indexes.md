@@ -1,16 +1,16 @@
-# Lab13: Deploy an automation runbook to automatically rebuild indexes
+# Lab 13: Deploy an automation runbook to automatically rebuild indexes
 
 You have been hired as a Senior Database Administrator to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria. AdventureWorks utilizes SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Create an Automation Account
-+ Task 2: Connect to an existing Azure SQL Database
-+ Task 3: Configure Automation Account assets
-+ Task 4: Create a PowerShell runbook
-+ Task 5: Create a schedule for a runbook
+- Task 1: Create an Automation Account
+- Task 2: Connect to an existing Azure SQL Database
+- Task 3: Configure Automation Account assets
+- Task 4: Create a PowerShell runbook
+- Task 5: Create a schedule for a runbook
 
 ## Estimated timing: 30 minutes
 
@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(13).png)
 
-## Task 1 - Create an Automation Account
+### Task 1 - Create an Automation Account
 
 1. In the Azure portal in the search bar type **automation (1)** and then select **Automation Accounts (2)** from the search results, and then select **+ Create**.
 
@@ -36,7 +36,7 @@ In this lab, you will complete the following tasks:
 
     ![Screenshot of the Add Automation Account screen.](../images/dp300-lab13-img2.png)
     
-## Task 2 - Connect to an existing Azure SQL Database
+### Task 2 - Connect to an existing Azure SQL Database
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
@@ -77,7 +77,7 @@ In this lab, you will complete the following tasks:
 
     ![Screenshot of the new stored procedures.](../images/dp-300-11.png)
 
-## Task 3 - Configure Automation Account assets
+### Task 3 - Configure Automation Account assets
 
 The next steps consist of configuring the assets required in preparation for the runbook creation. Then select **Automation Accounts**.
 
@@ -116,7 +116,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of adding account credentials.](../images/dp-300-20.png)
 
-## Task 4 - Create a PowerShell runbook
+### Task 4 - Create a PowerShell runbook
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
@@ -168,7 +168,7 @@ The next steps consist of configuring the assets required in preparation for the
 
     ![Screenshot of a successful message for the runbook creation.](../images/dp-300-29.png)
 
-## Task 5 - Create a schedule for a runbook
+### Task 5 - Create a schedule for a runbook
 
 Next you will schedule the runbook to execute on a regular basis.
 
@@ -196,19 +196,22 @@ Next you will schedule the runbook to execute on a regular basis.
 
     Azure Automation delivers a cloud-based automation, and configuration service that supports consistent management across your Azure and non-Azure environments.
    
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-By completing this exercise you've automated the defragging of indexes on a SQL server database to run every day, at 4am.
+>**Results:** By completing this exercise you've automated the defragging of indexes on a SQL server database to run every day, at 4am.
 
-### Review
-- Create an Automation Account
-- Connect to an existing Azure SQL Database
-- Configure Automation Account assets
-- Create a PowerShell runbook
-- Create a schedule for a runbook
+## Review
 
-## You have successfully completed the lab
+In this lab, you have:
+
+- Created an Automation Account
+- Connected to an existing Azure SQL Database
+- Configured Automation Account assets
+- Created a PowerShell runbook
+- Created a schedule for a runbook
+
+## You have successfully completed the lab.

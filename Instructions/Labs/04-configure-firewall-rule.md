@@ -1,4 +1,4 @@
-# Lab04: Implement a Secure Environment
+# Lab 04: Implement a Secure Environment
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
@@ -6,11 +6,11 @@ You have been hired as a Senior Database Administrator to help ensure the securi
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following task:
 
-+ Task 1: Configure Azure SQL Database firewall rules
+- Task 1: Configure Azure SQL Database firewall rules
 
 ## Estimated timing: 30 minutes
 
@@ -18,7 +18,7 @@ In this lab, you will complete the following task:
 
 ![](../images/preview(04).png)
 
-## Task 1 - Configure Azure SQL Database firewall rules
+### Task 1 - Configure Azure SQL Database firewall rules
 
 1. From the Azure Portal, search for **SQL servers (1)** in the search box at the top, then click **SQL servers (2)** from the list of options.
 
@@ -130,16 +130,17 @@ In this lab, you will complete the following task:
     ![Picture 10](../images/dp300-lab4-img19.png)
     
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-In this exercise, you've configured server and database firewall rules to access a database hosted on Azure SQL Database. You've also used T-SQL statements to create a contained user, and used SQL Server Management Studio to check the access.
+>**Results:** In this exercise, you've configured server and database firewall rules to access a database hosted on Azure SQL Database. You've also used T-SQL statements to create a contained user, and used SQL Server Management Studio to check the access.
 
-### Review
-In this lab, you have completed:
-- Configure Azure SQL Database firewall rules
+## Review
+In this lab, you have:
 
-## You have successfully completed the lab
+- Configured Azure SQL Database firewall rules.
+
+## You have successfully completed the lab.
