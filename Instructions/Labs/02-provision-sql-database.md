@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 4: Connect to an Azure SQL Database in Azure Data Studio
 + Task 5: Query an Azure SQL Database with a SQL Notebook
 
-## Estimated timing: 40 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture diagram
 
