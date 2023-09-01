@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Authorize access to Azure SQL Database with Azure Active Directory
 + Task 2: Manage access to database objects
 
-## Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
