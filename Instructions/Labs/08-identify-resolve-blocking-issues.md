@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Run blocked queries report
 + Task 2: Enable Read Commit Snapshot isolation level
   
-## Estimated timing: 15 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
