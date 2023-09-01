@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Enable Microsoft Defender for SQL
 + Task 2: Enable Data Classification
 
-## Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
