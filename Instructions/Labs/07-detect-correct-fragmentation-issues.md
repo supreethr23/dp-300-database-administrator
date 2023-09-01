@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Investigate index fragmentation
 + Task 3: Rebuild fragmented indexes
 
-## Estimated timing: 15 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
