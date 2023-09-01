@@ -1,4 +1,4 @@
-# Lab03: Configure database authentication and authorization
+# Lab 03: Configure database authentication and authorization
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the *AdventureWorks* database.
 
@@ -6,12 +6,12 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Authorize access to Azure SQL Database with Azure Active Directory
-+ Task 2: Manage access to database objects
+- Task 1: Authorize access to Azure SQL Database with Azure Active Directory
+- Task 2: Manage access to database objects
 
 ## Estimated timing: 30 minutes
 
@@ -19,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(03).png)
 
-## Task 1 - Authorize access to Azure SQL Database with Azure Active Directory
+### Task 1 - Authorize access to Azure SQL Database with Azure Active Directory
  
 1. On the Azure portal home page select **All resources**.
 
@@ -59,14 +59,14 @@ In this lab, you will complete the following tasks:
    
    ![Screenshot of adding the client IP address](../images/lab3_sql_pass.png)
    
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 
-## Task 2 - Manage access to database objects
+### Task 2 - Manage access to database objects
 
 In this task you will manage access to the database and its objects. The first thing you will do is create two users in the *AdventureWorksLT* database.
 
@@ -151,12 +151,15 @@ In this task you will manage access to the database and its objects. The first t
 
    ![Screenshot showing the returned rows of data from the stored procedure](../images/dp300-lab3-img14_new.png)
 
-In this exercise, you've seen how you can use Azure Active Directory to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
+>**Results:** In this exercise, you've seen how you can use Azure Active Directory to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
 
-### Review
-In this lab, you have completed:
-- Authorize access to Azure SQL Database with Azure Active Directory
-- Manage access to database objects
+## Review
 
-## You have successfully completed the lab
+In this lab, you have:
+
+- Authorized access to Azure SQL Database with Azure Active Directory.
+
+- Managed access to database objects.
+
+## You have successfully completed the lab.
 

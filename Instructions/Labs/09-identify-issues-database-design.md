@@ -1,4 +1,4 @@
-# Lab09: Identify database design issues
+# Lab 09: Identify database design issues
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to evaluate a database design for problems with normalization, data type selection, and index design.
 
@@ -6,15 +6,15 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Restore a database
-+ Task 2: Examine the query and identify the problem
-+ Task 3: Identify ways to fix the warning message
-+ Task 4: Change the code
-+ Task 5: Change the data type
+- Task 1: Restore a database
+- Task 2: Examine the query and identify the problem
+- Task 3: Identify ways to fix the warning message
+- Task 4: Change the code
+- Task 5: Change the data type
 
 ## Estimated timing: 30 minutes
 
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(09).png)
 
-## Task 1 - Restore a database
+### Task 1 - Restore a database
 
 1. Double-click on the icon SSMS on your labvm. 
 
@@ -54,14 +54,14 @@ In this lab, you will complete the following tasks:
 
     ![Picture 03](../images/dp-300-lab-09-img5.png)
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
    
-## Task 2 - Examine the query and identify the problem
+### Task 2 - Examine the query and identify the problem
 
 1. Select **New Query**. Copy and paste the following T-SQL code into the query window.
 
@@ -82,7 +82,7 @@ In this lab, you will complete the following tasks:
 
     ![Picture 02](../images/dp-300-lab-09-img7.png)
     
-## Task 3 - Identify ways to fix the warning message
+### Task 3 - Identify ways to fix the warning message
 
 1. The *[HumanResources].[Employee]* table structure is shown in the following data definition language (DDL) statement. **Review the fields that are used in the previous SQL query against this DDL, paying attention to their types.**
 
@@ -208,22 +208,24 @@ There are two approaches we can implement to fix the implicit conversion warning
 
     Examine the query plan, and note that you can now use an integer to filter by *NationalIDNumber* without the implicit conversion warning. The SQL query optimizer can now generate and execute the most optimal plan.
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 
-In this exercise, you've learned how to identify query problems caused by implicit data type conversions, and how to fix it to improve the query plan.
+>**Results:** In this exercise, you've learned how to identify query problems caused by implicit data type conversions, and how to fix it to improve the query plan.
 
-### Review
-In this lab, you have completed:
-- Restore a database
-- Examine the query and identify the problem
-- Identify ways to fix the warning message
-- Change the code
-- Change the data type
+## Review
+
+In this lab, you have:
+
+- Restored a database.
+- Examined the query and identify the problem.
+- Identified ways to fix the warning message.
+- Changed the code.
+- Changed the data type.
   
-## You have successfully completed the lab
+## You have successfully completed the lab.
 

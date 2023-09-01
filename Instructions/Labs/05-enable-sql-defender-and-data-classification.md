@@ -1,15 +1,15 @@
-# Lab05: Enable Microsoft Defender for SQL and Data Classification
+# Lab 05: Enable Microsoft Defender for SQL and Data Classification
 
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
 You have been hired as a Senior Database Administrator help ensure the security of the database environment. These tasks will focus on Azure SQL Database.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Enable Microsoft Defender for SQL
-+ Task 2: Enable Data Classification
+- Task 1: Enable Microsoft Defender for SQL
+- Task 2: Enable Data Classification
 
 ## Estimated timing: 30 minutes
 
@@ -17,7 +17,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(05).png)
 
-## Task 1 - Enable Microsoft Defender for SQL
+### Task 1 - Enable Microsoft Defender for SQL
 
 1. From the Azure Portal, search for “SQL servers” in the search box at the top, then click on **SQL servers** from the list of options.
 
@@ -50,13 +50,13 @@ In this lab, you will complete the following tasks:
 1. On the **Server settings** page, notice that toggle switch under **MICROSOFT DEFENDER FOR SQL** is set to **ON**.
 
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Task 2 - Enable Data Classification
+### Task 2 - Enable Data Classification
 
 1. From the main blade of your Azure SQL server, navigate to the **Settings** section, and select **SQL databases (1)**, and then select the database name **(2)**.
 
@@ -76,12 +76,14 @@ In this lab, you will complete the following tasks:
 
     ![Screenshot showing the Accept selected recommendations](../images/dp-300-lab5-8.png)
 
-In this exercise, you've enhanced the security of an Azure SQL Database by enabling Microsoft Defender for SQL. You've also created classified columns based on Azure portal recommendations.
+>**Results:** In this exercise, you've enhanced the security of an Azure SQL Database by enabling Microsoft Defender for SQL. You've also created classified columns based on Azure portal recommendations.
 
-### Review
-In this lab, you have completed:
-- Enable Microsoft Defender for SQL
-- Enable Data Classification
+## Review
+
+In this lab, you have:
+
+- Enabled Microsoft Defender for SQL.
+- Enabled Data Classification.
   
-## You have successfully completed the lab
+## You have successfully completed the lab.
 

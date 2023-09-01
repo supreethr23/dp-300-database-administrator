@@ -1,13 +1,13 @@
-# Lab14: Configure geo replication for Azure SQL Database
+# Lab 14: Configure geo replication for Azure SQL Database
 
 As a Database Administrator within AdventureWorks, you need to enable geo-replication for Azure SQL Database, and ensure it is working properly. Additionally, you will manually fail it over to another region using the portal.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Enable geo-replication
-+ Task 2: Failover SQL Database to a secondary region
+- Task 1: Enable geo-replication
+- Task 2: Failover SQL Database to a secondary region
 
 ## Estimated timing: 30 minutes
 
@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(14).png)
 
-## Task 1 - Enable geo-replication
+### Task 1 - Enable geo-replication
 
 1. In the Azure portal, navigate to your database by searching for **sql databases**.
 
@@ -60,13 +60,13 @@ In this lab, you will complete the following tasks:
 
     ![Screenshot showing the review and create page.](../images/lab14-dp-300-11.png)
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Task 2 - Failover SQL Database to a secondary region
+### Task 2 - Failover SQL Database to a secondary region
 
 Now that the Azure SQL Database replica is created, you will perform a failover.
 
@@ -106,11 +106,13 @@ Now that the Azure SQL Database replica is created, you will perform a failover.
 
 We've seen the readable secondary database may be in the same Azure region as the primary, or, more commonly, in a different region. This kind of readable secondary databases are also known as geo-secondaries, or geo-replicas.
 
-You have now seen how to enable geo-replicas for Azure SQL Database, and manually fail it over to another region using the portal.
+>**Results:** In this exercise You have now seen how to enable geo-replicas for Azure SQL Database, and manually fail it over to another region using the portal.
 
-### Review
-In this lab, you have completed:
-- Enable geo-replication
+## Review
+
+In this lab, you have:
+
+- Enabled geo-replication
 - Failover SQL Database to a secondary region
   
-## You have successfully completed the lab
+## You have successfully completed the lab.

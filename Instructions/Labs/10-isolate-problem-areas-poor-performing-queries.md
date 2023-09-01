@@ -1,4 +1,4 @@
-# Lab10: Isolate problem areas in poorly performing queries in a SQL Database
+# Lab 10: Isolate problem areas in poorly performing queries in a SQL Database
 
 You've been hired as a Senior Database Administrator to help with performance issues currently happening when users query the *AdventureWorks2017* database. Your job is to identify issues in query performance and remedy them using techniques learned in this module.
 
@@ -6,18 +6,18 @@ You'll run queries with suboptimal performance, examine the query plans, and att
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Restore a database
-+ Task 2: Generate actual execution plan
-+ Task 3: Resolve a suboptimal query plan
-+ Task 4: Use Query Store to detect and handle regression
-+ Task 5: Examine Top Resource Consuming Queries report
-+ Task 6: Force a better execution plan
-+ Task 7: Use query hints to impact performance
-+ Task 8: Change the query to use a variable and use a Query Hint
+- Task 1: Restore a database
+- Task 2: Generate actual execution plan
+- Task 3: Resolve a suboptimal query plan
+- Task 4: Use Query Store to detect and handle regression
+- Task 5: Examine Top Resource Consuming Queries report
+- Task 6: Force a better execution plan
+- Task 7: Use query hints to impact performance
+- Task 8: Change the query to use a variable and use a Query Hint
 
 ## Estimated timing: 30 minutes
 
@@ -25,7 +25,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(10).png)
 
-## Task 1 - Restore a database
+### Task 1 - Restore a database
 
 1.  Double click on icon SSMS on your labvm. 
 
@@ -57,13 +57,13 @@ In this lab, you will complete the following tasks:
 
    ![Picture 03](../images/upd-dp-300-module-07-lab-05.png)
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-## Task 2 - Generate actual execution plan
+### Task 2 - Generate actual execution plan
 
 There are several ways to generate an execution plan in SQL Server Management Studio.
 
@@ -101,7 +101,7 @@ There are several ways to generate an execution plan in SQL Server Management St
 
     The query optimizer was able to locate an appropriate index to fetch the required records.
 
-## Task 3 - Resolve a suboptimal query plan
+### Task 3 - Resolve a suboptimal query plan
 
 1. Copy and paste the code below into a **New query window.**
 
@@ -152,7 +152,7 @@ There are several ways to generate an execution plan in SQL Server Management St
 
       ![Screenshot showing the improved execution plan](../images/upd-dp-300-module-10-lab-05.png)
   
-## Task 4 - Use Query Store to detect and handle regression
+### Task 4 - Use Query Store to detect and handle regression
 
 Next you'll run a workload to generate query statistics for query store, examine **Top Resource Consuming Queries** report to identify poor performance, and see how to force a better execution plan.
 
@@ -200,7 +200,7 @@ Next you'll run a workload to generate query statistics for query store, examine
 
 1. Navigate back to the query tab from **ExecuteRandomWorkload.sql** file, and re-execute it.
 
-## Task 5 - Examine Top Resource Consuming Queries report
+### Task 5 - Examine Top Resource Consuming Queries report
 
 1. In order to view the Query Store node you will need to refresh the AdventureWorks2017 database in SQL Server Management Studio. **Right click (1)** on database name and choose select **Refresh (2)**. You will then see the **Query Store (3)** node under the database.
 
@@ -226,7 +226,7 @@ Next you'll run a workload to generate query statistics for query store, examine
     
     > **Note:** If you don't see the **Bar chart** then **change the minimum number of query plans to 1 and perform the Next step.**
 
-## Task 6 - Force a better execution plan
+### Task 6 - Force a better execution plan
 
 1. Navigate to the plan summary portion of the report as shown below. You will note there are one or two execution plans with widely different durations.
 
@@ -244,7 +244,7 @@ Next you'll run a workload to generate query statistics for query store, examine
 
     - There can be times when the query optimizer can make a poor choice on which execution plan to use. When this happens you can force SQL server to use the plan you want when you know it performs better.
 
-## Task 7 - Use query hints to impact performance
+### Task 7 - Use query hints to impact performance
 
 Next you'll run a workload, change the query to use a parameter, apply a query hint to the query, and re-execute it.
 
@@ -289,7 +289,7 @@ Before continuing with the exercise close all the current query windows by selec
 
    - This query uses a constant in its `WHERE` clause, the optimizer sees each of these queries as unique and generates a different execution plan each time.
 
-## Task 8 - Change the query to use a variable and use a Query Hint
+### Task 8 - Change the query to use a variable and use a Query Hint
 
 1. Change the query to use a variable value for SalesPersonID.
 
@@ -334,23 +334,25 @@ Before continuing with the exercise close all the current query windows by selec
 
     Comparing the statistics, you can see in the message tab that the difference between logical reads is **68%** more (689 versus 409) for the query without the query hint.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    In this exercise, you've learned how to identify query problems, and how to fix it to improve the query plan.
+>**Results:** In this exercise, you've learned how to identify query problems, and how to fix it to improve the query plan.
 
-### Review
-In this lab, you have completed:
-- Restore a database
-- Generate actual execution plan
-- Resolve a suboptimal query plan
-- Use Query Store to detect and handle regression
-- Examine Top Resource Consuming Queries report
-- Force a better execution plan
-- Use query hints to impact performance
-- Change the query to use a variable and use a Query Hint
+## Review
 
-## You have successfully completed the lab
+In this lab, you have:
+
+- Restored a database.
+- Generated actual execution plan.
+- Resolved a suboptimal query plan.
+- Used Query Store to detect and handle regression.
+- Examined Top Resource Consuming Queries report.
+- Forced a better execution plan.
+- Used query hints to impact performance.
+- Changed the query to use a variable and use a Query Hint.
+
+## You have successfully completed the lab.

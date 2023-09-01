@@ -1,18 +1,18 @@
-# Lab02: Provision an Azure SQL Database
+# Lab 02: Provision an Azure SQL Database
 
 Students will configure basic resources needed to deploy an Azure SQL Database with a Virtual Network Endpoint. Connectivity to the SQL Database will be validated using Azure Data Studio from the lab VM.
 
 As a database administrator for AdventureWorks, you will set up a new SQL Database, including a Virtual Network Endpoint to increase and simplify the security of the deployment. Azure Data Studio will be used to evaluate the use of a SQL Notebook for data querying and results retention.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Create a Virtual Network
-+ Task 2: Provision an Azure SQL Database
-+ Task 3: Enable access to an Azure SQL Database
-+ Task 4: Connect to an Azure SQL Database in Azure Data Studio
-+ Task 5: Query an Azure SQL Database with a SQL Notebook
+- Task 1: Create a Virtual Network
+- Task 2: Provision an Azure SQL Database
+- Task 3: Enable access to an Azure SQL Database
+- Task 4: Connect to an Azure SQL Database in Azure Data Studio
+- Task 5: Query an Azure SQL Database with a SQL Notebook
 
 ## Estimated timing: 60 minutes
 
@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(02).png)
 
-## Task 1 - Create a Virtual Network
+### Task 1 - Create a Virtual Network
 
 1. In the Azure portal home page, select the **left hand menu.**
 
@@ -45,7 +45,7 @@ In this lab, you will complete the following tasks:
 
 7. Under **Service Endpoints** pane on the right, expand the **Services** drop-down, and select **Microsoft.Sql**. Select **Save**.
 
-## Task 2 - Provision an Azure SQL Database
+### Task 2 - Provision an Azure SQL Database
 
 1. From the Azure Portal, search for “SQL databases” in the search box at the top, then click **SQL databases** from the list of options.
 
@@ -120,14 +120,14 @@ In this lab, you will complete the following tasks:
 
 14. Once the deployment is complete, click **Go to resource**.
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
  
-## Task 3 - Enable access to an Azure SQL Database
+### Task 3 - Enable access to an Azure SQL Database
 
 1. From the **SQL database** page, select the **Overview** section, and then select the link for the server name in the top section:
 
@@ -146,8 +146,7 @@ In this lab, you will complete the following tasks:
     ![Picture 15](../images/dp300-l2-failed.png)
     
     
-
-## Task 4 - Connect to an Azure SQL Database in Azure Data Studio
+### Task 4 - Connect to an Azure SQL Database in Azure Data Studio
 
 1. Launch Azure Data Studio from the lab virtual machine.
 
@@ -185,7 +184,7 @@ In this lab, you will complete the following tasks:
 
     ![Picture 20](../images/upd-dp-300-module-02-lab-28.png)
 
-## Task 5 - Query an Azure SQL Database with a SQL Notebook
+### Task 5 - Query an Azure SQL Database with a SQL Notebook
 
 1. In Azure Data Studio, connected to this lab’s AdventureWorksLT database, click the **New Notebook** button.
 
@@ -250,20 +249,22 @@ In this lab, you will complete the following tasks:
 
 13. Close the tab for the Notebook from inside of Azure Data Studio. From the File Menu, select Open File, and open the notebook you just saved. Observe that query results were saved along with the queries in the notebook.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-In this exercise, you've seen how you deploy a Azure SQL Database with a Virtual Network Endpoint. You were also able to connect to the SQL Database you've created using SQL Server Management Studio.
+>**Results:** In this exercise, you've seen how you deploy a Azure SQL Database with a Virtual Network Endpoint. You were also able to connect to the SQL Database you've created using SQL Server Management Studio.
 
-### Review
-In this lab, you have completed:
-- Create a Virtual Network
-- Provision an Azure SQL Database
-- Enable access to an Azure SQL Database
-- Connect to an Azure SQL Database in Azure Data Studio
-- Query an Azure SQL Database with a SQL Notebook
+## Review
+
+In this lab, you have:
+
+- Created a Virtual Network.
+- Provisioned an Azure SQL Database.
+- Enabled access to an Azure SQL Database.
+- Connected to an Azure SQL Database in Azure Data Studio.
+- Queried an Azure SQL Database with a SQL Notebook.
   
-## You have successfully completed the lab
+## You have successfully completed the lab.

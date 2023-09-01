@@ -1,4 +1,4 @@
-# Lab08: Identify and resolve blocking issues
+# Lab 08: Identify and resolve blocking issues
 
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to identify and resolve blocking issues appropriately.
 
@@ -6,13 +6,13 @@ You have been hired as a database administrator to identify performance related 
 
 >**Note:** These exercises ask you to copy and paste T-SQL code. Please verify that the code has been copied correctly, before executing the code.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Restore a database
-+ Task 2: Run blocked queries report
-+ Task 2: Enable Read Commit Snapshot isolation level
+- Task 1: Restore a database
+- Task 2: Run blocked queries report
+- Task 2: Enable Read Commit Snapshot isolation level
   
 ## Estimated timing: 30 minutes
 
@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(08).png)
 
-## Task 1 - Restore a database
+### Task 1 - Restore a database
 
 1. Double-click on the icon SSMS on your labvm. 
 
@@ -52,14 +52,14 @@ In this lab, you will complete the following tasks:
 
     ![Picture 03](../images/dp300-lab8-img4.png)
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 
-## Task 2 - Run blocked queries report
+### Task 2 - Run blocked queries report
 
 1. Select **New Query**. Copy and paste the following T-SQL code into the query window. Select **Execute** to execute this query.
 
@@ -191,7 +191,7 @@ In this lab, you will complete the following tasks:
 
     ![Picture 08](../images/dp300-lab8-img12.png)
 
-## Task 3 - Enable Read Commit Snapshot isolation level
+### Task 3 - Enable Read Commit Snapshot isolation level
 
 1. Select **New Query** from SQL Server Management Studio. Copy and paste the following T-SQL code into the query window. Select the **Execute** button to execute this query.
 
@@ -234,19 +234,21 @@ In this lab, you will complete the following tasks:
 
     Read Commit Snapshot isolation level is an optimistic form of transaction isolation, and the last query will show the latest committed version of the data, rather than being blocked.
     
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-In this exercise, you've learned how to identify sessions being blocked, and to mitigate those scenarios.
+>**Results:** In this exercise, you've learned how to identify sessions being blocked, and to mitigate those scenarios.
 
-### Review
-In this lab, you have completed:
-- Restore a database
-- Run blocked queries report
-- Enable Read Commit Snapshot isolation level
+## Review
+
+In this lab, you have:
+
+- Restored a database.
+- Ran blocked queries report.
+- Enabled Read Commit Snapshot isolation level.
   
-## You have successfully completed the lab
+## You have successfully completed the lab.
 
