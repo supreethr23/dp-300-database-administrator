@@ -10,7 +10,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 After completing this lab, you will be able to:
 
-- Authorize access to Azure SQL Database with Azure Active Directory
+- Authorize access to Azure SQL Database with Microsoft Entra ID
 - Manage access to database objects
 
 ## Architecture Diagram
