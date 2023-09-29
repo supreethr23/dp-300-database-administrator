@@ -10,7 +10,7 @@ You've been hired as a Senior Database Administrator to help ensure the security
 
 In this lab, you will complete the following tasks:
 
-- Task 1: Authorize access to Azure SQL Database with Azure Active Directory
+- Task 1: Authorize access to Azure SQL Database with Microsoft Entra ID
 - Task 2: Manage access to database objects
 
 ## Estimated timing: 30 minutes
@@ -19,39 +19,39 @@ In this lab, you will complete the following tasks:
 
 ![](../images/preview(03).png)
 
-### Task 1 - Authorize access to Azure SQL Database with Azure Active Directory
+### Task 1 - Authorize access to Azure SQL Database with Microsoft Entra ID
  
 1. On the Azure portal home page select **All resources**.
 
    ![Screenshot of the Azure portal home page, selecting All resources](../images/dp300-lab3-img2_update.png)
 
-1. Search for **dp300 (1)** and select the Azure SQL Database server **dp300-lab-<inject key="DeploymentID" enableCopy="false" />(2)**
+1. Search for **dp300 (1)** and select the Azure SQL Database server **dp300-lab-<inject key="DeploymentID" enableCopy="false" /> (2)**
 
    ![Screenshot selecting Not Configured](../images/dp300-lab3-img3_update.png)
 
-1. On the Overview page, select the **Not Configured** next to **Active Directory Admin**.
+1. On the Overview page, select the **Not Configured** next to **Microsoft Entra Admin**.
 
-   ![Screenshot selecting Not Configured](../images/dp300-lab3-img4_new.png)
+   ![Screenshot selecting Not Configured](../images/DP-300-MED-1.png)
 
 1. On the next screen, select **Set admin**.
 
-   ![Screenshot selecting Set admin](../images/dp300-lab3-img5_update.png)
+   ![Screenshot selecting Set admin](../images/DP-300-MED-2.png)
 
-1. In the **Azure Active Directory** sidebar, search for the Azure username you logged into the Azure portal with, then click on **Select**.
+1. In the **Microsoft Entra ID** sidebar, search for the Azure username you logged into the Azure portal with, then click on **Select**.
 
-1. Select **Save** to complete the process. This will make your username the Azure Active Directory admin for the server as shown below.
+1. Select **Save** to complete the process. This will make your username the Microsoft Entra ID admin for the server as shown below.
 
-   ![Screenshot of the Active Directory admin page](../images/dp300-lab3-img6.png)
+   ![Screenshot of the Active Directory admin page](../images/DP-300-MED-3.png)
 
 1. On the left navigation select **Overview (1)**, then copy the **Server name (2)** from right hand side.
 
-   ![Screenshot showing where to copy the server name from](../images/dp300-lab3-img7.png)
+   ![Screenshot showing where to copy the server name from](../images/DP-300-MED-4.png)
 
-1. Select the Windows Start button and type **SSMS(1)**. Select **Microsoft SQL Server Management Studio 19(2)** from the list.  
+1. Select the Windows Start button and type **SSMS(1)**. Select **SQL Server Management Studio Management Studio 19 (2)** from the list.  
 
    ![Picture 34](../images/ssms-updated-19-lab03.png)
 
-1. In the **Connect to Server** dialog box select **Database Engine** for Server type. In the **Server name** paste the name of your server you copied earlier. Change the authentication type to **Azure Active Directory Universal with MFA**.For the **User name** field, select the Azure **Username** from the **Environment Details (1)** tab and click on **Connect**
+1. In the **Connect to Server** dialog box select **Database Engine** for Server type. In the **Server name** paste the name of your server you copied earlier. Change the authentication type to **Azure Active Directory - Universal with MFA**.For the **User name** field, select the Azure **Username** from the **Environment Details (1)** tab and click on **Connect**
 
    ![Screenshot of the Connect to server dialog](../images/dp300-lab3-img9.png)
 
@@ -103,9 +103,8 @@ In this task you will manage access to the database and its objects. The first t
     GO
     ```
 
-    Next create a new stored procedure in the **SalesLT** schema.
 
-1. Execute the below T-SQL in your query window.
+1. Next create a new stored procedure in the **SalesLT** schema. Execute the below T-SQL in your query window.
 
     ```sql
     CREATE OR ALTER PROCEDURE SalesLT.DemoProc
@@ -119,16 +118,14 @@ In this task you will manage access to the database and its objects. The first t
     GO
     ```
 
-    Next use the `EXECUTE AS USER` syntax to test out the security. This allows the database engine to execute a query in the context of your user.
-
-1. Execute the following T-SQL.
+1. Next use the `EXECUTE AS USER` syntax to test out the security. This allows the database engine to execute a query in the context of your user. Execute the following T-SQL.
 
     ```sql
     EXECUTE AS USER = 'DP300User1'
     EXECUTE SalesLT.DemoProc
     ```
 
-    This will fail with the message:
+    >**Note:** This will fail with the message:
 
     ![Screenshot of the error message, The EXECUTE permission was denied on the object DemoProc](../images/dp300-lab3-img13.png)
 
@@ -140,7 +137,7 @@ In this task you will manage access to the database and its objects. The first t
     GO
     ```
 
-    The first command reverts the execution context back to the database owner.
+    >**Note:** The first command reverts the execution context back to the database owner.
 
 1. Rerun the previous T-SQL.
 
@@ -151,13 +148,13 @@ In this task you will manage access to the database and its objects. The first t
 
    ![Screenshot showing the returned rows of data from the stored procedure](../images/dp300-lab3-img14_new.png)
 
->**Results:** In this exercise, you've seen how you can use Azure Active Directory to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
+>**Results:** In this exercise, you've seen how you can use Microsoft Entra ID to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
 
 ## Review
 
 In this lab, you have:
 
-- Authorized access to Azure SQL Database with Azure Active Directory.
+- Authorized access to Azure SQL Database with Microsoft Entra ID.
 
 - Managed access to database objects.
 
