@@ -6,9 +6,9 @@ You've been hired as a Senior Database Administrator to help with performance is
 
 You'll run queries with suboptimal performance, examine the query plans, and attempt to make improvements within the database.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Restore a database
 - Identifying Query Performance Issues

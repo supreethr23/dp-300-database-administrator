@@ -4,9 +4,9 @@
 
 You have been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Create an alert when a CPU exceeds an average of 80 percent
 

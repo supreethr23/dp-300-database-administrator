@@ -6,9 +6,9 @@ The students will take the information gained in the lessons to configure and su
 
 You have been hired as a Senior Database Administrator help ensure the security of the database environment. These tasks will focus on Azure SQL Database.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Enable Microsoft Defender for SQL
 - Enable Data Classification

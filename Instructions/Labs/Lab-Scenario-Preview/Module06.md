@@ -6,9 +6,9 @@ The students will take the information gained in the lessons to scope out the de
 
 You have been hired as a database administrator to identify performance related issues and provide viable solutions to resolve any issues found. You need to use the Azure portal to identify the performance issues and suggest methods to resolve them.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Review CPU utilization in Azure portal
 - Identify high CPU queries

@@ -4,9 +4,9 @@
 
 As a Database Administrator for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Restore a database
 - Configure Backup to URL
