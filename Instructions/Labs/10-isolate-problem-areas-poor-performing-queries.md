@@ -1,5 +1,6 @@
 # Lab 10: Isolate problem areas in poorly performing queries in a SQL Database
 
+## Lab scenario
 You've been hired as a Senior Database Administrator to help with performance issues currently happening when users query the *AdventureWorks2017* database. Your job is to identify issues in query performance and remedy them using techniques learned in this module.
 
 You'll run queries with suboptimal performance, examine the query plans, and attempt to make improvements within the database.
@@ -342,9 +343,9 @@ Before continuing with the exercise close all the current query windows by selec
 
 >**Results:** In this exercise, you've learned how to identify query problems, and how to fix it to improve the query plan.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Restored a database.
 - Generated actual execution plan.
@@ -355,4 +356,4 @@ In this lab, you have:
 - Used query hints to impact performance.
 - Changed the query to use a variable and use a Query Hint.
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.

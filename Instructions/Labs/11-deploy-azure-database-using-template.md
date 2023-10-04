@@ -1,5 +1,6 @@
 # Lab 11: Deploy an Azure SQL Database from a template
 
+## Lab scenario
 You've been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance and provide methods for alerting based on certain criteria. AdventureWorks uses SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
 ## Lab objectives
@@ -126,10 +127,10 @@ In this lab, you will complete the following task:
 
 >**Results:** In this exercise you've just seen how, with a single click on an Azure Resource Manager template link, you can easily create both an Azure SQL server and database.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Explored Azure Resource Manager template.
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.

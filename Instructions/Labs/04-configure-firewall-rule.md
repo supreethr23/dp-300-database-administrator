@@ -1,5 +1,6 @@
 # Lab 04: Implement a Secure Environment
 
+## Lab scenario
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
 You have been hired as a Senior Database Administrator to help ensure the security of the database environment. These tasks will focus on Azure SQL Database.
@@ -138,9 +139,9 @@ In this lab, you will complete the following task:
 
 >**Results:** In this exercise, you've configured server and database firewall rules to access a database hosted on Azure SQL Database. You've also used T-SQL statements to create a contained user, and used SQL Server Management Studio to check the access.
 
-## Review
-In this lab, you have:
+### Review
+In this lab, you have completed:
 
 - Configured Azure SQL Database firewall rules.
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.

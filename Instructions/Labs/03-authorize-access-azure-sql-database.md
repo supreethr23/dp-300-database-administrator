@@ -1,5 +1,6 @@
 # Lab 03: Configure database authentication and authorization
 
+## Lab scenario
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the *AdventureWorks* database.
 
 You've been hired as a Senior Database Administrator to help ensure the security of the database environment.
@@ -150,13 +151,12 @@ In this task you will manage access to the database and its objects. The first t
 
 >**Results:** In this exercise, you've seen how you can use Microsoft Entra ID to grant Azure credentials  access to a SQL Server hosted in Azure. You've also used T-SQL statement to create new database users and granted them permissions to run stored procedures.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Authorized access to Azure SQL Database with Microsoft Entra ID.
-
 - Managed access to database objects.
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.
 

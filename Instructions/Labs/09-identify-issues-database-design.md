@@ -1,5 +1,6 @@
 # Lab 09: Identify database design issues
 
+## Lab scenario
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to evaluate a database design for problems with normalization, data type selection, and index design.
 
 You have been hired as a database administrator to identify performance related issues and provide viable solutions to resolve any issues found. AdventureWorks has been selling bicycles and bicycle parts directly to consumers and distributors for over a decade. Your job is to identify issues in query performance and remedy them using techniques learned in this module.
@@ -217,9 +218,9 @@ There are two approaches we can implement to fix the implicit conversion warning
 
 >**Results:** In this exercise, you've learned how to identify query problems caused by implicit data type conversions, and how to fix it to improve the query plan.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Restored a database.
 - Examined the query and identify the problem.
@@ -227,5 +228,5 @@ In this lab, you have:
 - Changed the code.
 - Changed the data type.
   
-## You have successfully completed the lab.
+### You have successfully completed the lab.
 

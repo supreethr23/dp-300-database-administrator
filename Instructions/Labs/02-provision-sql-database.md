@@ -1,5 +1,6 @@
 # Lab 02: Provision an Azure SQL Database
 
+## Lab scenario
 Students will configure basic resources needed to deploy an Azure SQL Database with a Virtual Network Endpoint. Connectivity to the SQL Database will be validated using Azure Data Studio from the lab VM.
 
 As a database administrator for AdventureWorks, you will set up a new SQL Database, including a Virtual Network Endpoint to increase and simplify the security of the deployment. Azure Data Studio will be used to evaluate the use of a SQL Notebook for data querying and results retention.
@@ -257,9 +258,9 @@ In this lab, you will complete the following tasks:
 
 >**Results:** In this exercise, you've seen how you deploy a Azure SQL Database with a Virtual Network Endpoint. You were also able to connect to the SQL Database you've created using SQL Server Management Studio.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Created a Virtual Network.
 - Provisioned an Azure SQL Database.
@@ -267,4 +268,4 @@ In this lab, you have:
 - Connected to an Azure SQL Database in Azure Data Studio.
 - Queried an Azure SQL Database with a SQL Notebook.
   
-## You have successfully completed the lab.
+### You have successfully completed the lab.

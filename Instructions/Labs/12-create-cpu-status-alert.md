@@ -1,5 +1,6 @@
 # Lab 12: Create a CPU status alert for a SQL Server on Azure
 
+## Lab scenario
 You have been hired as a Senior Data Engineer to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria.
 
 ## Lab objectives
@@ -70,8 +71,6 @@ In this lab, you will complete the following task:
     With the alert in place, if the CPU usage on average exceeds 80%, an email like this is sent.
 
     ![Screenshot of the warning email](../images/dp300-lab12-img13.png)
-    
->**Results:** In this exercise you've learned how Alerts can send you an email or call a web hook when some metric (for example database size or CPU usage) reaches a threshold you define. You've just seen how you can easily configure alerts for Azure SQL Databases.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -79,10 +78,12 @@ In this lab, you will complete the following task:
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Review
+>**Results:** In this exercise you've learned how Alerts can send you an email or call a web hook when some metric (for example database size or CPU usage) reaches a threshold you define. You've just seen how you can easily configure alerts for Azure SQL Databases.
 
-In this lab, you have:
+### Review
+
+In this lab, you have completed:
 
 - Created an alert when a CPU exceeds an average of 80 percent
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.
