@@ -1,5 +1,6 @@
 # Lab 01: Provision a SQL Server on an Azure Virtual Machine
 
+## Lab scenario
 Students will explore the Azure Portal and use it to create an Azure VM with SQL Server 2019 installed. Then they will connect to the virtual machine through Remote Desktop Protocol.
 
 You are a database administrator for AdventureWorks. You need to create a test environment for use in a proof of concept. The proof of concept will use SQL Server on an Azure Virtual Machine and a backup of the AdventureWorksDW database. You need to set up the Virtual Machine, restore the database, and query it to ensure it is available.
@@ -113,11 +114,11 @@ In this lab, you will complete the following tasks:
 
 >**Results:** In this exercise, you've seen how the Azure portal gives you powerful tools to manage a SQL Server hosted in a virtual machine. These tools include control over automated patching, automated backups, and giving you an easy way to setup high availability.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Deployed a SQL Server on an Azure Virtual Machine
 - Connected to SQL Server on an Azure Virtual Machine
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.

@@ -6,9 +6,9 @@ Students will configure basic resources needed to deploy an Azure SQL Database w
 
 As a database administrator for AdventureWorks, you will set up a new SQL Database, including a Virtual Network Endpoint to increase and simplify the security of the deployment. Azure Data Studio will be used to evaluate the use of a SQL Notebook for data querying and results retention.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Create a Virtual Network
 - Provision an Azure SQL Database

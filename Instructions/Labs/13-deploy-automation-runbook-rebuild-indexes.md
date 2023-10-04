@@ -1,5 +1,6 @@
 # Lab 13: Deploy an automation runbook to automatically rebuild indexes
 
+## Lab scenario
 You have been hired as a Senior Database Administrator to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria. AdventureWorks utilizes SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
 ## Lab objectives
@@ -204,9 +205,9 @@ Next you will schedule the runbook to execute on a regular basis.
   
 >**Results:** By completing this exercise you've automated the defragging of indexes on a SQL server database to run every day, at 4am.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Created an Automation Account
 - Connected to an existing Azure SQL Database
@@ -214,4 +215,4 @@ In this lab, you have:
 - Created a PowerShell runbook
 - Created a schedule for a runbook
 
-## You have successfully completed the lab.
+### You have successfully completed the lab.

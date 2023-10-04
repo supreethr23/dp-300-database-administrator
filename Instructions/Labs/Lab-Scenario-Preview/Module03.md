@@ -6,9 +6,9 @@ The students will take the information gained in the lessons to configure and su
 
 You've been hired as a Senior Database Administrator to help ensure the security of the database environment.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Authorize access to Azure SQL Database with Microsoft Entra ID
 - Manage access to database objects

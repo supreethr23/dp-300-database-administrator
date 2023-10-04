@@ -4,9 +4,9 @@
 
 As a Database Administrator within AdventureWorks, you need to enable geo-replication for Azure SQL Database, and ensure it is working properly. Additionally, you will manually fail it over to another region using the portal.
 
-## Objectives
+## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
 
 - Enable geo-replication
 - Failover SQL Database to a secondary region

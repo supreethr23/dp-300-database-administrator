@@ -1,5 +1,6 @@
 # Lab 08: Identify and resolve blocking issues
 
+## Lab scenario
 The students will take the information gained in the lessons to scope out the deliverables for a digital transformation project within AdventureWorks. Examining the Azure portal as well as other tools, students will determine how to utilize native tools to identify and resolve performance related issues. Finally, students will be able to identify and resolve blocking issues appropriately.
 
 You have been hired as a database administrator to identify performance related issues and provide viable solutions to resolve any issues found. You need to investigate the performance problems and suggest methods to resolve them.
@@ -242,13 +243,13 @@ In this lab, you will complete the following tasks:
   
 >**Results:** In this exercise, you've learned how to identify sessions being blocked, and to mitigate those scenarios.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Restored a database.
 - Ran blocked queries report.
 - Enabled Read Commit Snapshot isolation level.
   
-## You have successfully completed the lab.
+### You have successfully completed the lab.
 

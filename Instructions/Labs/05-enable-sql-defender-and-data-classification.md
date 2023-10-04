@@ -1,5 +1,6 @@
 # Lab 05: Enable Microsoft Defender for SQL and Data Classification
 
+## Lab scenario
 The students will take the information gained in the lessons to configure and subsequently implement security in the Azure Portal and within the AdventureWorks database.
 
 You have been hired as a Senior Database Administrator help ensure the security of the database environment. These tasks will focus on Azure SQL Database.
@@ -78,12 +79,12 @@ In this lab, you will complete the following tasks:
 
 >**Results:** In this exercise, you've enhanced the security of an Azure SQL Database by enabling Microsoft Defender for SQL. You've also created classified columns based on Azure portal recommendations.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Enabled Microsoft Defender for SQL.
 - Enabled Data Classification.
   
-## You have successfully completed the lab.
+### You have successfully completed the lab.
 

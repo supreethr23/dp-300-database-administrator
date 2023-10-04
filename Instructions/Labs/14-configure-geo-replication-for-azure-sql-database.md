@@ -1,5 +1,6 @@
 # Lab 14: Configure geo replication for Azure SQL Database
 
+## Lab scenario
 As a Database Administrator within AdventureWorks, you need to enable geo-replication for Azure SQL Database, and ensure it is working properly. Additionally, you will manually fail it over to another region using the portal.
 
 ## Lab objectives
@@ -108,11 +109,11 @@ We've seen the readable secondary database may be in the same Azure region as th
 
 >**Results:** In this exercise You have now seen how to enable geo-replicas for Azure SQL Database, and manually fail it over to another region using the portal.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Enabled geo-replication
 - Failover SQL Database to a secondary region
   
-## You have successfully completed the lab.
+### You have successfully completed the lab.

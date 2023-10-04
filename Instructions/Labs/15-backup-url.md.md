@@ -1,5 +1,6 @@
 # Lab 15: Backup to URL  
 
+## Lab scenario
 As a Database Administrator for AdventureWorks, you need to back up a database to a URL in Azure and restore it from Azure blob storage after a human error has occurred.
 
 ## Lab objectives
@@ -302,9 +303,9 @@ It is important to understand the components and the interaction to do a backup 
 
 >**Results:** In this exercise, you have now seen that you can back up a database to a URL in Azure and, if necessary, restore it.
 
-## Review
+### Review
 
-In this lab, you have:
+In this lab, you have completed:
 
 - Restored a database
 - Configured Backup to URL
@@ -314,4 +315,4 @@ In this lab, you have:
 - Validated the backup through Storage Explorer
 - Restored from URL
   
-## You have successfully completed the lab.
+### You have successfully completed the lab.
