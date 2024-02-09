@@ -30,6 +30,8 @@ In this lab, you will complete the following tasks:
 2. In the left navigation pane, click **Virtual Networks**
 
 3. Click **+ Create** to open the **Create Virtual Network** page. On the **Basics** tab, complete the following information:
+   
+   **Note** : **Please make sure not to include additional spaces at the end when copying the parameters!!**
 
 - **Subscription:** Use existing subscription
 - **Resource group:** **contoso-rg-<inject key="DeploymentID" enableCopy="false"/>** **(1)**
