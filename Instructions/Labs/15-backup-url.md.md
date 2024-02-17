@@ -128,7 +128,7 @@ In this lab, you will complete the following tasks:
 1. A shared access signature (SAS) at the container level is required for security. This can be done via Cloud Shell or PowerShell. Execute the following:
 
     ```bash
-    az storage container generate-sas -n "backups" --account-name "BACKUP_STORAGE_NAME" --account-key "STORAGE_KEY" --permissions "rwdl" --expiry "2023-12-31T00:00Z" -o tsv
+    az storage container generate-sas -n "backups" --account-name "BACKUP_STORAGE_NAME" --account-key "STORAGE_KEY" --permissions "rwdl" --expiry "2024-12-31T00:00Z" -o tsv
     ```
 
    > **NOTE:** Replace BACKUP_STORAGE_NAME with **dp300backupstr<inject key="DeploymentID" enableCopy="false" />** and STORAGE_KEY with the value of **key1** that you have copied in the notepad.
