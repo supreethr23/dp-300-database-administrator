@@ -3,6 +3,8 @@
 ## Lab scenario
 You have been hired as a Senior Database Administrator to help automate day to day operations of database administration. This automation is to help ensure that the databases for AdventureWorks continue to operate at peak performance as well as provide methods for alerting based on certain criteria. AdventureWorks utilizes SQL Server in both Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) offerings.
 
+> **Note:** These exercises may ask you to copy and paste T-SQL code and makes use of existing SQL resources. Please verify that the code has been copied correctly, before executing the code.
+
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
@@ -103,6 +105,8 @@ The next steps consist of configuring the assets required in preparation for the
     ![Screenshot of selecting Select.](../images/dp-300-17.png)
 
 1. On the **Add a module** page, under **runtime version** select the latest runtime version available **(1)**, then select **Import (2)**. This will import the PowerShell module into your Automation account.
+
+   ![Screenshot of selecting Select.](../images/dp-300-18.png)
 
 1. You'll need to create a credential to securely sign in to your database. From the blade for the Automation Account navigate to the **Shared Resources** section and select **Credentials**.
 
