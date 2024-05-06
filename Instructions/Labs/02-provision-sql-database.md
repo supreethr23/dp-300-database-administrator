@@ -73,7 +73,7 @@ In this lab, you will complete the following tasks:
 
   Your **Create SQL Database Server** page should look similar to the one below. Then click **OK (7)**.
 
-     ![Picture 7](../images/database.png)
+     ![Picture 7](../images/database-01.png)
 
  -  Back to the **Create SQL Database** page, make sure **Want to use Elastic Pool?** is set to **No**.
  -  On the **Compute + Storage** option, click on **Configure database** link. On the **Configure** page, for **Service tier** dropdown, select **Basic**, and then **Apply**.
