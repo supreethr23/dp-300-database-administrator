@@ -98,7 +98,7 @@ Now that the Azure SQL Database replica is created, you will perform a failover.
 
     ![Screenshot showing a forced failover warning message.](../images/lab14-dp-300-L1-6.png)
 
-1. **Refreash** the page, The status of the primary replica will switch to **Pending** and the secondary to **Failover**. 
+1. **Refresh** the page, The status of the primary replica will switch to **Pending** and the secondary to **Failover**. 
 
     ![Screenshot showing a forced failover warning message.](../images/lab14-dp-300-L1-7.png)
 
