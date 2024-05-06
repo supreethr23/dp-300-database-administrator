@@ -201,6 +201,7 @@ Next you'll run a workload to generate query statistics for query store, examine
 
     ![Selecting configure option for Top Resource Consuming Queries Report](../images/dp-300-module-10-lab-08.png)
 
+**Note:** If the 'configure' option is not available, set page zoom to 75% in browser settings and a dropdown option will appear to select the option.
 1. In the configuration screen, change the filter for the minimum number of query plans to 2. Then select **OK**.
 
     ![Set Minimum number of query plans](../images/dp-300-module-10-lab-09.png)
